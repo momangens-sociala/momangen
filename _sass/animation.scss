@@ -1,0 +1,50 @@
+  
+@-webkit-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:92% 0%}
+  50%{background-position:9% 100%}
+  100%{background-position:92% 0%}
+}
+
+@-webkit-keyframes example {
+  0%   {left:0px; bottom:0px;}
+  50%  {left:50px; bottom:0px;}
+  100% {left:0px; bottom:0px;}
+}
+@-moz-keyframes example {
+  0%   {left:0px; bottom:0px;}
+  50%  {left:50px; bottom:0px;}
+  100% {left:0px; bottom:0px;}
+}
+
+@keyframes example {
+  0%   {left:0px; bottom:0px;}
+  50%  {left:50px; bottom:0px;}
+  100% {left:0px; bottom:0px;}
+}
+
+@-webkit-keyframes shadow {
+  to {
+    text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
+  }
+
+}
+@-moz-keyframes shadow {
+  to {
+    text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
+  }
+}
+
+@keyframes shadow {
+  to {text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
+  }
+}

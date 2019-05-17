@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include metahead.html %}
+</head>
+
+<body>
+
+{% if page.url == "/" %}
+{% include hero.html %}
+{% else %}
+{% include header.html %}
+{% endif %}
+
+<!-- <div id="navigation"> </div> -->
+ 
+<div id="content">
+{{ content }}
+</div> 
+
+<div id="footer">
+{% include footer.html %}
+</div>
+</body>
+
+</html>
