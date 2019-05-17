@@ -1,0 +1,38 @@
+<!-- BEGIN contact.html -->
+<div id="contact">
+  <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+    <div>
+      <h1>Drop me a line!</h1>
+      <input type="hidden" name="_to" value="set.hallstrom+website@gmail.com" /><br />
+      <input type="text" name="_gotcha" style="display: none;" />
+    </div>
+    <div>
+      <label for="name" style="display: none;">Name</label><br />
+      <input type="text" name="name" id="name" placeholder="Enter your name..." class="contact" />
+    </div>
+    <div>
+      <label for="email" style="display: none;">Email Address</label><br />
+      <input type="email" name="email" id="email" placeholder="Enter your email..." required class="contact" />
+    </div>
+    <div>
+      <label for="message" style="display: none;">Message</label><br />
+      <textarea name="message" id="message" placeholder="Enter your message..." required
+        class="contact textspace"></textarea>
+    </div>
+    <div>
+      <input type="checkbox" name="consent" id="consent" required class="css-checkbox lrg klaus" /><label for="consent"
+        class="css-label lrg klaus">I agree with
+        {% if page.url == '/privacy-policy/' %} this privacy policy.
+        {% else %} the <a href="/privacy-policy/">privacy policy.</a>
+        {% endif %}</label>
+    </div>
+    <div>
+      <input type="checkbox" name="news" id="news" class="css-checkbox lrg klaus" /><label for="news"
+        class="css-label lrg klaus">Send me news!</label>
+    </div>
+    <div>
+      <input type="submit" value="Send Message" />
+    </div>
+  </form>
+</div>
+<!-- END contact.html -->

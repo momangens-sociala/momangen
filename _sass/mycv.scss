@@ -1,0 +1,210 @@
+/*! sakrecoer sheet */
+
+@font-face {
+  font-family: avant;
+  src: url('../fonts/free_avantgarde.woff');
+}
+@font-face {
+  font-family: avantB;
+  src: url('../fonts/free_avantgardeBOLD.woff');
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  line-height: 1.5em;
+  background-color: #fff;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding:0px;
+  font-size: 1em;
+  font-family: avant, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#333;
+}
+h1,
+h2,
+h3,
+h4,
+b,
+strong {
+  font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+a h1:hover,
+a h2:hover,
+a h3,
+a h4 {
+  text-shadow: none;
+}
+
+h1{
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+h2{
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+
+}
+p{
+  line-height:1.5em;
+
+}
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  background: linear-gradient(97deg, rgb(255, 128, 128), rgb(120, 201, 255));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: text-shadow 0.2s linear;
+  -moz-transition: text-shadow 0.2s linear;
+  -ms-transition: text-shadow 0.2s linear;
+  -o-transition: text-shadow 0.2s linear;
+  transition: text-shadow 0.2s linear;
+  text-shadow: none;
+}
+a:hover {
+  text-shadow: .05em .05em rgb(255, 128, 128), -.05em -.05em rgb(120, 201, 255);
+  background: linear-gradient(97deg, rgb(120, 201, 255), rgb(255, 128, 128),);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+a:active {
+  color: rgb(55, 171, 200);
+}
+/*
+ * blend4web
+ */
+
+#banner {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(255, 0, 0, 0.5), rgba(0, 153, 255, 0.5));
+  background-size: 800% 800%;
+  
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+  div {
+    align-self: flex-end ;
+    flex: 1 1 auto;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  h1 {
+    position: relative;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, rgb(255, 128, 128), rgb(120, 201, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    // text-shadow: .05em .05em rgba(255, 0, 0, 0.5), -.05em -.05em rgba(0, 153, 255, 0.5);
+    -moz-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
+    animation: example 20s linear infinite;
+
+  }
+
+}
+
+ 
+ /*
+  * Layout
+  */
+#header {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  background: linear-gradient(223deg, rgba(255, 0, 0, 0.5), rgba(0, 153, 255, 0.5));
+  background-size: 800% 800%;
+  
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+  
+
+  div {
+    align-self: flex-end ;
+    flex: 1 1 auto;
+    margin-left:5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  h1 {
+    position: relative;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, rgb(255, 128, 128), rgb(120, 201, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    // text-shadow: .05em .05em rgba(255, 0, 0, 0.5), -.05em -.05em rgba(0, 153, 255, 0.5);
+    -moz-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
+    animation: example 20s linear infinite;
+  }
+  h1,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active,
+  a:focus {
+    text-shadow: none;
+  }
+
+}
+
+#navigation {
+  position: relative;
+  height: 10%;
+  width: 100%;
+}
+
+
+#content {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+.column {
+  flex: 1 1 300px;
+  margin-left:5px;
+  margin-right: 5px;
+
+}
+#footer {
+  width:100%;
+  height: 50px;
+  font-size: .6em;
+  padding: 0;
+  line-height: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  /* background: linear-gradient(293deg, rgba(255, 0, 0, 0.25), rgba(0, 153, 255, 0.25)); */
+}
+
+.date {
+  flex: 0 0 100%;
+  margin-left: 5px;
+}

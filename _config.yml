@@ -13,29 +13,136 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Momangen 
-email: info@momangen.se
-description: >- # this means to ignore newlines until "baseurl:"
-  Momangen, s&ouml;dermalms b&auml;st bevarade hemlighet.
+title: 'Set Hallström'
+email: set@hallstrom.ch 
+phone: '+46708134377'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://set.hallstrom.ch" # the base hostname & protocol for your site, e.g. http://example.com
+instagram_username: 'sethybwoy'
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: >- # this means to ignore newlines until "baseurl:"
+  'The Digital CV of Set Hallstrom, a multi-disciplanry Artist, a Free Software
+  advocate and Community Manager.'
+author:
+  name: Set Hallstrom
+  email: set@hallstrom.ch 
+  twitter: # twitter username without the @ symbol
+social:
+  name: Set Hallstrom
+  links:
+    - https://www.instagram.com/sethybwoy/
+    - http://www.twitter.com/heptazoid
+    - https://www.linkedin.com/in/set-hallstrom/   
+lang: sv_SE
 
 # Build settings
-markdown: kramdown
-# theme: minima
 plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Plugin settings:
+
+# Site Variables:
+
+# # collection
+# collections:
+#   tjanster:
+#     output: "true"
+#     permalink: "/tjaenster/:name/"
+#   cuttlefishes:
+#     output: "false"
+#     _hide_content: "true"
+#     _singular_name: "vi"
+#     _plural_name: "vi"
+
+# # defaults
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "*.*~", "color_chart.txt", Gemfile, Gemfile.lock]
+permalink: /:categories/:year/:month/:day/:title/
+
+timezone: Europe/Stockholm
+
+defaults:
+  -
+    scope:
+      path:            "*.pdf"
+    values:
+      sitemap:         false
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "default"
+#       _options:
+#         image:
+#           uploads_dir: "images"
+#           width: "1280"
+#           height: "720"
+#           mime_type: "image/jpeg"
+#           resize_style: "contain"
+#         hero_image:
+#           uplaods_dir: "images"
+#           width: 1280
+#           height: 720
+#           mime_type: "image/jpeg"
+#           resize_style: "cover"
+#         content:
+#           width: "1280"
+#           height: "720"
+#           uploads_dir: "images"
+#           mime_type: "image/jpeg"
+#           resize_style: "contain"
+#   - scope:
+#       path: ""
+#       type: "tjanster"
+#     values:
+#       layout: "tjaenster"
+#       image:
+#         uploads_dir: "images/tjaenster"
+#         width: "1024"
+#         height: "340"
+#         resize_style: "cover"
+#         mime_type: "image/jpeg"
+#       content:
+#         uploads_dir: "images/tjaenster"
+#         width: "1024"
+#         height: "340"
+#         resize_style: "cover"
+#         mime_type: "image/jpeg"
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "tjaenster"
+#       permalink: /:year/:month/:day/:title/
+#       _options:
+#         image:
+#           uploads_dir: "images/tjaenster"
+#           width: "1280"
+#           height: "550"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#         content:
+#           uploads_dir: "images/tjaenster"
+#           width: "1280"
+#           height: "550"
+#           resize_style: "cover"
+#           mime_type: "image/jpeg"
+#   - scope:
+#       path: ""
+#       type: "cuttlefishes"
+#     values:
+#       _options:
+#         image:
+#           uploads_dir: "images"
+#           width: "120"
+#           height: "120"
+#           resize_style: "cover"
+#         content:
+#           uploads_dir: "images"
+#           width: "120"
+#           height: "120"
+#           resize_style: "cover"

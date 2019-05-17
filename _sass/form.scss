@@ -1,0 +1,110 @@
+
+
+#footer p {
+  margin-left: 5px;
+}
+
+.textspace {
+  height: 100px;
+} 
+
+input[type=text], input[type=email], textarea, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 200px;
+  background-image: linear-gradient(223deg, rgba(255, 0, 0, 0.5), rgba(0, 153, 255, 0.5));
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-image: linear-gradient(223deg, rgba(0, 153, 255, 0.5),rgba(255, 0, 0, 0.5));
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+
+}
+/* CSS Created by CSS CHECKBOX */
+/**********************************/
+/**** www.CSScheckbox.com *********/
+
+/*general styles for all CSS Checkboxes*/
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+  
+  input[type=checkbox].css-checkbox {
+      position: absolute; 
+      overflow: hidden; 
+      clip: rect(0 0 0 0); 
+      height:1px; 
+      width:1px; 
+      margin:-1px; 
+      padding:0;
+      border:0;
+  }
+  
+  input[type=checkbox].css-checkbox + label.css-label {
+    padding-left:20px;
+    height:15px; 
+    display:inline-block;
+    line-height:15px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:15px;
+    vertical-align:middle;
+    cursor:pointer;
+  }
+  
+  input[type=checkbox].css-checkbox:checked + label.css-label {
+    background-position: 0 -15px;
+  }
+  
+  .css-label{
+    background-image:url(/assets/img/check.png);
+  }
+  
+  /*specific classes related to Checkbox skins*/
+  
+
+  input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+    padding-left:22px;
+      height:20px; 
+    display:inline-block;
+    line-height:20px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:15px;
+    vertical-align:middle;
+      cursor:pointer;
+  }
+  
+  input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+  
+      background-position: 0 -20px;
+  }
+  

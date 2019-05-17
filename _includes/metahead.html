@@ -1,0 +1,55 @@
+<!-- BEGIN metahead.html -->
+<title>{{ page.title }} | {{ site.title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+<link rel="shortcut icon" href="{{ site.url }}{{ site.logo }}" type="image/png" />
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/rss.xml" />
+<!-- Standard SEO -->
+<meta name="title" content="{{ page.title }} | {{ site.title }}">
+<meta name="dc.date.modified" scheme="ISO8601" content="{{ site.time | date_to_xmlschema }}" />
+<meta name='robots' content='index' />
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="description" content="{{ page.description | strip_html }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="alternate" href="{{ site.url }}{{ page.url }}" hreflang="x-default" />
+<meta name="geo.region" content="SE-AB" />
+<meta name="geo.placename" content="Stockholm" />
+<!-- Dublin Core basic info -->
+<meta name="dcterms.Identifier" content="{{ site.url }}" />
+<meta name="dcterms.Format" content="text/html" />
+<meta name="dcterms.Relation" content="{{ site.title }}" />
+<meta name="dcterms.Language" content="{{ site.lang }}" />
+<meta name="dcterms.Publisher" content="{{ site.title }}" />
+<meta name="dcterms.Type" content="text/html" />
+<meta name="dcterms.Coverage" content="{{ site.url }}/" />
+<meta name="dcterms.Rights" content="Some Rights Reserved &copy;{{ site.time | date: "%Y" }} {{ site.title }}." />
+<meta name="dcterms.Title" content="{{ page.title }} | {{ site.title }}" />
+<meta name="dcterms.Subject" content="{{ site.description | strip_html }}" />
+<meta name="dcterms.Contributor" content="{{ site.title }}" />
+<meta name="dcterms.Date" content="{{ site.time | date: "%Y-%m-%d" }}" />
+<meta name="dcterms.Description" content="{{ page.description | strip_html }}" />
+<!-- Facebook OpenGraph -->
+{% if page.url == '/' %}
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}" />{% else %}
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
+{% for social in site.social %}
+<meta property="og:see_also" content="{{ social.link }}" />
+{% endfor %}
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@heptazoid" />
+<meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />{% if page.url == '/' %}
+<meta name="twitter:description" content="{{ site.description | strip_html }}" />{% else %}
+<meta name="twitter:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.url == '/' %}
+<meta name="twitter:image" content="{{ site.url }}{{ site.logo }}" />{% else %}
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}" />{% endif %}
+<!-- Humans.txt authorship http://humanstxt.org 
+<link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" /> 
+-->
+<!-- Domain verification -->
+<!-- Identity -->
+<!-- END metahead.html -->
