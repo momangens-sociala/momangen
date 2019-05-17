@@ -13,28 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 'Set Hallström'
-email: set@hallstrom.ch 
-phone: '+46708134377'
+title: 'Momangen'
+email: info@momangen.se
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://set.hallstrom.ch" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: 'sethybwoy'
+url: "https://www.momangen.se" # the base hostname & protocol for your site, e.g. http://example.com
+# instagram_username: 'sethybwoy'
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: >- # this means to ignore newlines until "baseurl:"
-  'The Digital CV of Set Hallstrom, a multi-disciplanry Artist, a Free Software
-  advocate and Community Manager.'
+  Södermalms bäst bevarade hemlighet
 author:
-  name: Set Hallstrom
-  email: set@hallstrom.ch 
+  name: Föreningen Momangen
+  email: info@momangen.se 
   twitter: # twitter username without the @ symbol
-social:
-  name: Set Hallstrom
-  links:
-    - https://www.instagram.com/sethybwoy/
-    - http://www.twitter.com/heptazoid
-    - https://www.linkedin.com/in/set-hallstrom/   
+#social:
+#  name: Momangen
+#  links:
+#    - https://www.instagram.com/sethybwoy/
+#    - http://www.twitter.com/heptazoid
+#    - https://www.linkedin.com/in/set-hallstrom/   
 lang: sv_SE
 
 # Build settings

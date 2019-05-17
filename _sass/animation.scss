@@ -34,17 +34,17 @@
 
 @-webkit-keyframes shadow {
   to {
-    text-shadow: .2em .2em rgba(255, 0, 0, 0.5), -.2m -.2em rgba(0, 153, 255, 0.5);
+    text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
   }
 
 }
 @-moz-keyframes shadow {
   to {
-    text-shadow: .2em .2em rgba(255, 0, 0, 0.5), -.2m -.2em rgba(0, 153, 255, 0.5);
+    text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
   }
 }
 
 @keyframes shadow {
-  to {text-shadow: .2em .2em rgba(255, 0, 0, 0.5), -.2m -.2em rgba(0, 153, 255, 0.5);
+  to {text-shadow: .2em .2em rgba(61, 61, 61, 0.5), -.2m -.2em rgba(224, 224, 224, 0.5);
   }
 }

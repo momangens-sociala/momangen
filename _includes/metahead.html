@@ -7,7 +7,7 @@
 <!-- Standard SEO -->
 <meta name="title" content="{{ page.title }} | {{ site.title }}">
 <meta name="dc.date.modified" scheme="ISO8601" content="{{ site.time | date_to_xmlschema }}" />
-<meta name='robots' content='index' />
+{% if jekyll.environment == 'production' %}<meta name="robots" content="index" />{% else %}<meta name="robots" content="noindex, nofollow" />{% endif %}
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
@@ -41,7 +41,6 @@
 {% endfor %}
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@heptazoid" />
 <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />{% if page.url == '/' %}
 <meta name="twitter:description" content="{{ site.description | strip_html }}" />{% else %}
 <meta name="twitter:description" content="{{ page.description | strip_html }}" />{% endif %}{% if page.url == '/' %}

@@ -21,7 +21,7 @@ input[type=text], input[type=email], textarea, select {
 
 input[type=submit] {
   width: 200px;
-  background-image: linear-gradient(223deg, rgba(255, 0, 0, 0.5), rgba(0, 153, 255, 0.5));
+  background-image: linear-gradient(223deg, rgba(61, 61, 61, 0.5), rgba(224, 224, 224, 0.5));
   background-size: 800% 800%;
   -webkit-animation: AnimationName 29s ease infinite;
   -moz-animation: AnimationName 29s ease infinite;
@@ -36,7 +36,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-image: linear-gradient(223deg, rgba(0, 153, 255, 0.5),rgba(255, 0, 0, 0.5));
+  background-image: linear-gradient(223deg, rgba(224, 224, 224, 0.5),rgba(61, 61, 61, 0.5));
   background-size: 800% 800%;
   -webkit-animation: AnimationName 29s ease infinite;
   -moz-animation: AnimationName 29s ease infinite;
