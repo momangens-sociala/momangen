@@ -1,9 +1,10 @@
 ---
 title: 'Momangens Sociala Presenterar: Mogaiskt'
 description: 'Kom på afterwork inuti Södermalms bäst bevarade hemlighet. Liveande elektronisk mysmusik och billig dryck för medlemmar'
-start_date: 2019-06-14 17:00 CEST
-end_date: 2019-06-14 22:00 CEST
+start_date: 2019-06-14 00:00:00 +0200
+end_date: 2019-06-14 00:00:00 +0200
 image: /images/events/momagiskt.jpg
-link: https://www.facebook.com/events/2416889711931362/
+link: 'https://www.facebook.com/events/2416889711931362/'
 category: music
 ---
+
