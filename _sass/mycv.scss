@@ -48,15 +48,15 @@ a:active,
 a:focus {
   color: #333;
   text-decoration: none;
-  -webkit-transition: color 0.2s linear;
-  -moz-transition: color 0.2s linear;
-  -ms-transition: color 0.2s linear;
-  -o-transition: color 0.2s linear;
-  transition: color 0.2s linear;
+  -webkit-transition: border-bottom 0.2s linear;
+  -moz-transition: border-bottom 0.2s linear;
+  -ms-transition: border-bottom 0.2s linear;
+  -o-transition: border-bottom 0.2s linear;
+  transition: border-bottom 0.2s linear;
   border-bottom: 3px solid rgb(84, 241, 210);
 }
 a:hover {
-  color: rgb(84, 241, 210);
+  border-bottom: 3px solid #000;
  
 }
 a:active {
