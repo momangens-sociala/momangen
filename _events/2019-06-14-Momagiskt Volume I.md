@@ -1,6 +1,8 @@
 ---
 title: 'Momangens Sociala Presenterar: Momagiskt'
-description: 'Kom på afterwork inuti Södermalms bäst bevarade hemlighet. Levande elektronisk mysmusik och billig dryck för medlemmar'
+description: >-
+  Kom på afterwork inuti Södermalms bäst bevarade hemlighet. Levande elektronisk
+  mysmusik och billig dryck för medlemmar.
 start_datetime: 2019-06-14 17:00:00 +0200
 end_datetime: 2019-06-14 23:00:00 +0200
 image: /images/events/momagiskt.jpg
@@ -10,25 +12,20 @@ slutet_salskap: true
 layout: blog
 ---
 
+### Vad kommer h&auml;nda?
 
-### Vad kommer hända?
-
-En samling omöjlig musik du troligtvis aldrig hört kommer att spelas. Dels i form av ett urval deliciösa vinyler, och i form av levande elektronisk musik.
+En samling om&ouml;jlig musik du troligtvis aldrig h&ouml;rt kommer att spelas. Dels i form av ett urval delici&ouml;sa vinyler, och i form av levande elektronisk musik.
 
 ### Vem kommer spela?
 
-#### Nimrod 
-Står för vinylselection, Momagiskt alldelles egna residentent. 
+#### Nimrod
+
+St&aring;r f&ouml;r vinylselection, Momagiskt alldelles egna residentent.
 
 #### Max Park
-Knastrande samplingar,\\
-sommardoftande pianoslingor,\\
-kassettloopar och blås.\\
-Collageartad experimentell popmusik\\
-med örat mot marken.\\
-<https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii>
+
+Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.<br>[https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii](https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii)
 
 #### Kinvtid
 
-Utforskare av maskinsjälar. Meditation på sparsam instrumentation.\\
-<https://knivtid.bandcamp.com/releases>
+Utforskare av maskinsj&auml;lar. Meditation p&aring; sparsam instrumentation.<br>[https://knivtid.bandcamp.com/releases](https://knivtid.bandcamp.com/releases)
