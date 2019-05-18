@@ -4,7 +4,7 @@
   <canvas style="display:none" id="canvas3" width="570" height="570"></canvas>
   <canvas id="canvas2" width="570" height="570">*** THIS BROWSER DOES NOT SUPPORT THE CANVAS ELEMENT ***</canvas>
   <div class="hero">
-    <h1>{{ site.title }}</h1>
+    <img src="/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" />
     <div id="poster" class="column">
 
       {% for event in site.events limit: 1 %}
@@ -13,8 +13,8 @@
         <h4>På gång:</h4>
         <h4>{{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}</h4>
         <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
-        <p>{{ event.description }}</p>
-        Typ: {{ event.category }} <a href="{{ event.url }}">Läs mer</a>
+        <h3>{{ event.description | truncatewords: 7 }} <a href="{{ event.url }}">Läs mer</a></h3>
+        Typ av konst: {{ event.category }} <br />
         <br /><br />
       </div>
       {% endfor %}
