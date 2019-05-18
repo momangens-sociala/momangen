@@ -26,14 +26,6 @@ strong {
   font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
-
-a h1:hover,
-a h2:hover,
-a h3,
-a h4 {
-  text-shadow: none;
-}
-
 h1{
   font-size: 2em;
   line-height: 1em;
@@ -56,19 +48,16 @@ a:active,
 a:focus {
   color: #333;
   text-decoration: none;
-  -webkit-transition: text-shadow 0.2s linear;
-  -moz-transition: text-shadow 0.2s linear;
-  -ms-transition: text-shadow 0.2s linear;
-  -o-transition: text-shadow 0.2s linear;
-  transition: text-shadow 0.2s linear;
-  text-shadow: none;
-  padding: 0 10px;
-  border-radius: 3px;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+  border-bottom: 3px solid rgb(84, 241, 210);
 }
 a:hover {
-  text-shadow: .05em .05em rgb(31, 31, 31), -.05em -.05em rgb(224, 224, 224);
-
-  
+  color: rgb(84, 241, 210);
+ 
 }
 a:active {
   color: rgb(55, 171, 200);
@@ -96,13 +85,14 @@ a:active {
     position: relative;
     margin-bottom: 0;
     height: 10vh;
-    // text-shadow: .05em .05em rgba(31, 31, 31, 0.5), -.05em -.05em rgba(224, 224, 224, 0.5);
     -moz-animation: fontmovement 5s linear infinite; /* Safari 4.0 - 8.0 */
     -webkit-animation: fontmovement 5s linear infinite; /* Safari 4.0 - 8.0 */
     animation: fontmovement 5s linear infinite;
 
   }
-
+  .nodecoration {
+    border:none;
+  }
 }
 
  
@@ -125,28 +115,7 @@ a:active {
   flex-wrap: wrap;
   overflow-x: hidden;
   background-color: #fff;
-  a:link,
-  a:visited,
-  a:hover,
-  a:active,
-  a:focus {
-    text-decoration: none;
-    background: linear-gradient(97deg, rgb(84, 241, 210), rgb(165, 202, 195));
-    -webkit-transition: text-shadow 0.2s linear;
-    -moz-transition: text-shadow 0.2s linear;
-    -ms-transition: text-shadow 0.2s linear;
-    -o-transition: text-shadow 0.2s linear;
-    transition: text-shadow 0.2s linear;
-    text-shadow: none;
-    padding: 0 10px;
-    border-radius: 3px;
-  }
-  a:hover {
-    text-shadow: .05em .05em rgb(31, 31, 31), -.05em -.05em rgb(224, 224, 224);
-    background: linear-gradient(97deg, rgb(224, 224, 224), rgb(31, 31, 31),);
-    color: rgb(84, 241, 210);
-  
-  }
+
 }
 .column {
   flex: 1 1 300px;
