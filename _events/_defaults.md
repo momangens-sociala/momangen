@@ -6,4 +6,5 @@ end_datetime:
 image:
 link:
 category:
+layout: blog
 ---
