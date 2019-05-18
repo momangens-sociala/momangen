@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
-<div class="blogpost">
+<div class="column">
   <h1>{{ page.title }}</h1>
   <img src="{{ site.baseurl}}{{ page.image}}" width="50%" style="float:right" />
   {{ content }}
-  
+
+</div>
+<div class="column">
+    <h4>OBS! Du måste vara medlem!</h4>
+    {% include contact.html %}
 </div>

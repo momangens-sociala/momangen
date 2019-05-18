@@ -11,11 +11,12 @@
       {% for event in site.events limit: 1 %}
 
       <div>
-        <h4>På gång:</h4>
-        <h4>{{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}</h4>
+        <p>På gång:<br />
+        {{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}<br />
+          Typ av konst: {{ event.category }}</p>
         <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
-        <h3>{{ event.description | truncatewords: 7 }} <a href="{{ event.url }}">Läs mer</a></h3>
-        Typ av konst: {{ event.category }} <br />
+        <h3>{{ event.description | truncatewords: 10 }} <span style="font-family:'avant', 'Helvetica Neue', Helvetica, Arial, sans-serif"><a href="{{ event.url }}">Läs mer</a></span></h3>
+       
         
       </div>
       {% endfor %}
