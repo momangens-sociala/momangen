@@ -1,32 +1,17 @@
-  
-@-webkit-keyframes AnimationName {
-  0%{background-position:92% 0%}
-  50%{background-position:9% 100%}
-  100%{background-position:92% 0%}
-}
-@-moz-keyframes AnimationName {
-  0%{background-position:92% 0%}
-  50%{background-position:9% 100%}
-  100%{background-position:92% 0%}
-}
-@keyframes AnimationName {
-  0%{background-position:92% 0%}
-  50%{background-position:9% 100%}
-  100%{background-position:92% 0%}
-}
 
-@-webkit-keyframes example {
+
+@-webkit-keyframes fontmovement {
   0%   {left:0px; bottom:0px;}
   50%  {left:50px; bottom:0px;}
   100% {left:0px; bottom:0px;}
 }
-@-moz-keyframes example {
+@-moz-keyframes fontmovement {
   0%   {left:0px; bottom:0px;}
   50%  {left:50px; bottom:0px;}
   100% {left:0px; bottom:0px;}
 }
 
-@keyframes example {
+@keyframes fontmovement {
   0%   {left:0px; bottom:0px;}
   50%  {left:50px; bottom:0px;}
   100% {left:0px; bottom:0px;}

@@ -9,12 +9,13 @@
 
       {% for event in site.events limit: 1 %}
       <div>
-        <img src="{{ event.image }}" />
+        <a href="{{ event.url }}"><img src="{{ event.image }}" /></a>
       </div>
       <div>
         <h2>{{ event.title }}</h2>
-        <h3>{{ event.start_date }} till {{ event.end_date }}</h3>
+        <h3>{{ event.start_datetime }} till {{ event.end_datetime }}</h3>
         <p>{{ event.description }}</p>
+        <a href="{{ event.url }}">Läs mer</a>
         <p>{{ event.category }}</p>
       </div>
       {% endfor %}

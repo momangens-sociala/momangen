@@ -88,9 +88,6 @@ a:active {
   height: 100vh;
   background: transparent;
   
-  -webkit-animation: AnimationName 29s ease infinite;
-  -moz-animation: AnimationName 29s ease infinite;
-  animation: AnimationName 29s ease infinite;
   div {
     align-self: flex-end ;
     flex: 1 1 auto;
@@ -108,9 +105,9 @@ a:active {
     -webkit-text-fill-color: transparent;
     font-size: 3em;
     // text-shadow: .05em .05em rgba(31, 31, 31, 0.5), -.05em -.05em rgba(224, 224, 224, 0.5);
-    -moz-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
-    animation: example 20s linear infinite;
+    -moz-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
+    animation: fontmovement 10s linear infinite;
 
   }
 
@@ -127,11 +124,6 @@ a:active {
   height: 30vh;
   background: linear-gradient(223deg, rgba(31, 31, 31, 0.5), rgba(224, 224, 224, 0.5));
   background-size: 800% 800%;
-  
-  -webkit-animation: AnimationName 29s ease infinite;
-  -moz-animation: AnimationName 29s ease infinite;
-  animation: AnimationName 29s ease infinite;
-  
 
   div {
     align-self: flex-end ;
@@ -150,9 +142,9 @@ a:active {
     -webkit-text-fill-color: transparent;
     font-size: 3em;
     // text-shadow: .05em .05em rgba(31, 31, 31, 0.5), -.05em -.05em rgba(224, 224, 224, 0.5);
-    -moz-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation: example 20s linear infinite; /* Safari 4.0 - 8.0 */
-    animation: example 20s linear infinite;
+    -moz-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
+    animation: fontmovement 10s linear infinite;
   }
   h1,
   a:link,
