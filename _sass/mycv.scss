@@ -1,13 +1,6 @@
 /*! sakrecoer sheet */
 
-@font-face {
-  font-family: avant;
-  src: url('../fonts/free_avantgarde.woff');
-}
-@font-face {
-  font-family: avantB;
-  src: url('../fonts/free_avantgardeBOLD.woff');
-}
+
 html,
 body {
   width: 100%;
@@ -93,8 +86,7 @@ a:active {
   display: flex;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(0deg, rgba(31, 31, 31, 0.5), rgba(224, 224, 224, 0.5));
-  background-size: 800% 800%;
+  background: transparent;
   
   -webkit-animation: AnimationName 29s ease infinite;
   -moz-animation: AnimationName 29s ease infinite;
@@ -186,6 +178,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   overflow-x: hidden;
+  background-color: #fff;
 }
 .column {
   flex: 1 1 300px;
