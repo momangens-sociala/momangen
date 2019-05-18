@@ -9,7 +9,9 @@ layout: default
   {{ content }}
 
 </div>
+{% if page.slutet_salskap == true %}
 <div class="column">
     <h4>OBS! Du måste vara stödmedlem!</h4>
     {% include contact.html %}
 </div>
+{% endif %}
