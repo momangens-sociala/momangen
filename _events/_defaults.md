@@ -1,6 +1,7 @@
 ---
 title:
 description:
+publicerings_date: 
 start_datetime:
 end_datetime:
 image:
