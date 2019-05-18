@@ -46,7 +46,10 @@ plugins:
 # Site Variables:
 
 # # collection
-# collections:
+collections:
+  events:
+    output: "true"
+    permalink: "/events/:year/:month/:day/:title/"
 #   tjanster:
 #     output: "true"
 #     permalink: "/tjaenster/:name/"

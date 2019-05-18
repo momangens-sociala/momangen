@@ -1,6 +1,16 @@
 <!-- BEGIN hero.html -->
 <div id="banner">
+
   <div class="hero">
+    <div id="poster" class="column">
+      {% for event in events limit: 1 %}
+      <img src="{{ event.image }}" />
+      <h2>{{ event.title }}</h2>
+      <h3>{{ event.start_date }} till {{ event.end_date }}</h3>
+      <p>{{ event.description }}</p>
+      <p>{{ event.category }}</p>
+    {% endfor %}
+    </div>
     <h1>{{ site.title }}</h1>
   </div>
 </div>
