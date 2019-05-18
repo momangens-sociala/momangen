@@ -6,6 +6,7 @@ layout: default
   Eventet börjar: <strong>{{ page.start_datetime | date: "%Y-%m-%d"}} klockan {{ page.start_datetime | date: "%R"}}</strong><br />
   Och slutar: <strong>{{ page.end_datetime | date: "%Y-%m-%d"}} klockan {{ page.end_datetime | date: "%R"}}</strong>
   <img src="{{ site.baseurl}}{{ page.image}}" width="50%" style="float:right" />
+  <p>{{ page.description }}</p>
   {{ content }}
 
 </div>

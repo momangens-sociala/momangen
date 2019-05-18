@@ -10,10 +10,25 @@ slutet_salskap: true
 layout: blog
 ---
 
-### Vad är Lorem Ipsum?
 
-Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången till elektronisk typografi utan större förändringar. Det blev allmänt känt på 1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, och senare med mjukvaror som Aldus PageMaker.
+### Vad kommer hända?
 
-### Varför använder vi det?
+En samling omöjlig musik du troligtvis aldrig hört kommer att spelas. Dels i form av ett urval deliciösa vinyler, och i form av levande elektronisk musik.
 
-Det är ett välkänt faktum att läsare distraheras av läsbar text på en sida när man skall studera layouten. Poängen med Lorem Ipsum är att det ger ett normalt ordflöde, till skillnad från "Text här, Text här", och ger intryck av att vara läsbar text. Många publiseringprogram och webbutvecklare använder Lorem Ipsum som test-text, och en sökning efter "Lorem Ipsum" avslöjar många webbsidor under uteckling. Olika versioner har dykt upp under åren, ibland av olyckshändelse, ibland med flit (mer eller mindre humoristiska).
+### Vem kommer spela?
+
+#### Nimrod 
+Står för vinylselection, Momagiskt alldelles egna residentent. 
+
+#### Max Park
+Knastrande samplingar,\\
+sommardoftande pianoslingor,\\
+kassettloopar och blås.\\
+Collageartad experimentell popmusik\\
+med örat mot marken.\\
+<https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii>
+
+#### Kinvtid
+
+Utforskare av maskinsjälar. Meditation på sparsam instrumentation.\\
+<https://knivtid.bandcamp.com/releases>
