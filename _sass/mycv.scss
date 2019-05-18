@@ -109,40 +109,7 @@ a:active {
  /*
   * Layout
   */
-#header {
-  overflow: hidden;
-  display: flex;
-  width: 100%;
-  height: 30vh;
-  background-size: 800% 800%;
 
-  div {
-    align-self: flex-end ;
-    flex: 1 1 auto;
-    margin-left:5px;
-    margin-right: 5px;
-    margin-bottom: 0;
-    padding: 0;
-  }
-  h1 {
-    position: relative;
-    margin-bottom: 0;
-    font-size: 3em;
-    // text-shadow: .05em .05em rgba(31, 31, 31, 0.5), -.05em -.05em rgba(224, 224, 224, 0.5);
-    -moz-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation: fontmovement 10s linear infinite; /* Safari 4.0 - 8.0 */
-    animation: fontmovement 10s linear infinite;
-  }
-  h1,
-  a:link,
-  a:visited,
-  a:hover,
-  a:active,
-  a:focus {
-    text-shadow: none;
-  }
-
-}
 
 #navigation {
   position: relative;

@@ -1,10 +1,11 @@
 <!-- BEGIN hero.html -->
-<div id="banner">
+<div id="banner" style="{% if page.url == "/" %}height:100%"{% else %}height:30%" {% endif %}">
   <canvas style="display:none" id="canvas" width="285" height="285"></canvas>
   <canvas style="display:none" id="canvas3" width="570" height="570"></canvas>
   <canvas id="canvas2" width="570" height="570">*** THIS BROWSER DOES NOT SUPPORT THE CANVAS ELEMENT ***</canvas>
   <div class="hero">
-    <img src="/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" />
+    <a href="{{ site.baseurl }}/"><img src="/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" /></a>
+    {% if page.url == "/" %}
     <div id="poster" class="column">
 
       {% for event in site.events limit: 1 %}
@@ -15,11 +16,11 @@
         <h2><a href="{{ event.url }}">{{ event.title }}</a></h2>
         <h3>{{ event.description | truncatewords: 7 }} <a href="{{ event.url }}">Läs mer</a></h3>
         Typ av konst: {{ event.category }} <br />
-        <br /><br />
+        
       </div>
       {% endfor %}
     </div>
-
+    {% else %}{% endif %}
   </div>
 </div>
 <!-- END hero.html -->
