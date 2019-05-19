@@ -15,7 +15,7 @@ layout: blog
 
 ### Vad kommer h&auml;nda?
 
-En samling om&ouml;jlig musik du troligtvis aldrig h&ouml;rt kommer att spelas. Dels i form av ett urval delici&ouml;sa vinyler, och i form av levande elektronisk musik.
+En samling om&ouml;jlig och lugn musik med rimlig volym som du troligtvis aldrig h&ouml;rt kommer att spelas. Dels i form av ett urval delici&ouml;sa vinyler, och i form av levande elektronisk musik.
 
 ### Vem kommer spela?
 
