@@ -22,7 +22,7 @@ url: "https://www.momangen.se" # the base hostname & protocol for your site, e.g
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: >- # this means to ignore newlines until "baseurl:"
-  Kulturförening och Galleri som spiller färg, bygger skulpturer, skriver, musicerar, fotar och pysslar på Södermalm.
+  Galleri och Kulturförening som spiller färg, bygger skulpturer, skriver, musicerar, fotar och pysslar på Södermalm.
 author:
   name: Föreningen Momangen
   email: info@momangen.se 
