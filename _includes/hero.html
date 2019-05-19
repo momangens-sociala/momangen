@@ -12,7 +12,7 @@
 
       <div>
         <p>På gång:</p>
-        <a href="cloudcannon:collections/{{ tjanst.path }}" class="editor-link cms-editor-link">Redigera EVent</a>
+        <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera EVent</a>
         <h2><a href="{{ event.url }}" class="nodecoration">{{ event.title }}</a></h2>
         <p>{{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}<br />
           Typ av konst: {{ event.category }}</p>
