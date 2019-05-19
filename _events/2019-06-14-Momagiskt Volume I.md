@@ -21,7 +21,7 @@ En samling om&ouml;jlig och lugn musik med rimlig volym som du troligtvis aldrig
 
 #### Nimrod
 
-St&aring;r f&ouml;r vinylselection, Momagiskt alldelles egna residentent.
+St&aring;r f&ouml;r vinylselection, Momagiskts alldeles egna resident.
 
 #### Max Park
 
