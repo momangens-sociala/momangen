@@ -27,6 +27,6 @@ St&aring;r f&ouml;r vinylselection, Momagiskts alldeles egna resident.
 
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.<br>[https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii](https://soundcloud.com/mxps/max-park-and-patrick-durkan-interpretation-and-abstracts-from-collages-ii)
 
-#### Kinvtid
+#### Knivtid
 
 Utforskare av maskinsj&auml;lar. Meditation p&aring; sparsam instrumentation.<br>[https://knivtid.bandcamp.com/releases](https://knivtid.bandcamp.com/releases)
