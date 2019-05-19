@@ -1,5 +1,7 @@
 <!-- BEGIN metahead.html -->
-<title>{{ page.title }} | {{ site.title }}</title>
+
+{% seo %}
+{% feed_meta %}
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" type="text/css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css" type="text/css" />
@@ -12,8 +14,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
-<meta name="description" content="{{ page.description | strip_html }}" />
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 <link rel="alternate" href="{{ site.url }}{{ page.url }}" hreflang="x-default" />
 <meta name="geo.region" content="SE-AB" />
 <meta name="geo.placename" content="Stockholm" />
@@ -34,15 +34,8 @@
 <meta name="dcterms.Contributor" content="{{ site.title }}" />
 <meta name="dcterms.Date" content="{{ site.time | date: "%Y-%m-%d" }}" />
 <meta name="dcterms.Description" content="{{ page.description | strip_html }}" />
-<!-- Facebook OpenGraph -->
-{% if page.url == '/' %}
-<meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.url }}" />{% else %}
-<meta property="og:type" content="article" />
-<meta property="og:url" content="{{ site.url }}{{ page.url }}" />{% endif %}
-{% for social in site.social %}
-<meta property="og:see_also" content="{{ social.link }}" />
-{% endfor %}
+
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}" />{% if page.url == '/' %}
