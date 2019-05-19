@@ -49,7 +49,7 @@ plugins:
 collections:
   events:
     output: "true"
-    permalink: "/events/:year/:month/:day/:title/"
+    permalink: "/events/:title/"
 #   tjanster:
 #     output: "true"
 #     permalink: "/tjaenster/:name/"
