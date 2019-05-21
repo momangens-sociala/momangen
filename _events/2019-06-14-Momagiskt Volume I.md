@@ -33,8 +33,6 @@ Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&a
 
 #### Knivtid
 
-![](/uploads/artistfoto.JPG)
-
 Utforskare av maskinsj&auml;lar, Knivtid g&ouml;r elektronisk och elektroakustisk musik som ibland skulle kunna kallas f&ouml;r ambient. Han kommer framf&ouml;ra den live f&ouml;r sin premi&auml;r, med hj&auml;lp av tv&aring; portastudios, flera bandspelare och hemmasnickrade bandloopar.
 
 [Lyssna h&auml;r](https://knivtid.bandcamp.com/releases){: target="_blank"}
