@@ -72,7 +72,6 @@ defaults:
       path:            "*.pdf"
     values:
       sitemap:         false
-
   - scope:
       path: ""
       type: "events"
