@@ -27,10 +27,10 @@ Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.
 
-[Lyssna h&auml;r](https://maxppark.bandcamp.com/album/collages-ii)
+[Lyssna h&auml;r](https://maxppark.bandcamp.com/album/collages-ii){: target="_blank"}
 
 #### Knivtid
 
 Utforskare av maskinsj&auml;lar, Knivtid g&ouml;r elektronisk och elektroakustisk musik som ibland skulle kunna kallas f&ouml;r ambient. Han kommer framf&ouml;ra den live f&ouml;r sin premi&auml;r, med hj&auml;lp av tv&aring; portastudios, flera bandspelare och hemmasnickrade bandloopar.
 
-[Lyssna h&auml;r](https://knivtid.bandcamp.com/releases)
+[Lyssna h&auml;r](https://knivtid.bandcamp.com/releases){: target="_blank"}
