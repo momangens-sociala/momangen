@@ -25,6 +25,7 @@ En samling om&ouml;jlig och musik med rimlig volym som du troligtvis aldrig h&ou
 Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
 #### Max Park
+![](/uploads/artistfoto.JPG)
 
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.
 

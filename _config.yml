@@ -59,8 +59,8 @@ collections:
         expandable: true
         uploads_dir: "images/events"
       content:
-        width: 540
-        height: 320
+        width: 150
+        height: 150
         resize_style: "cover"
         mime_type: "image/jpeg"
         uploads_dir: "images/events"
