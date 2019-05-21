@@ -25,7 +25,8 @@ En samling om&ouml;jlig och musik med rimlig volym som du troligtvis aldrig h&ou
 Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
 #### Max Park
-![](/uploads/artistfoto.JPG)
+
+&nbsp;
 
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.
 
@@ -33,7 +34,7 @@ Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&a
 
 #### Knivtid
 
-![](/uploads/artistfoto.JPG)
+![](/uploads/artistfoto-1.JPG)
 
 Utforskare av maskinsj&auml;lar, Knivtid g&ouml;r elektronisk och elektroakustisk musik som ibland skulle kunna kallas f&ouml;r ambient. Han kommer framf&ouml;ra den live f&ouml;r sin premi&auml;r, med hj&auml;lp av tv&aring; portastudios, flera bandspelare och hemmasnickrade bandloopar.
 
