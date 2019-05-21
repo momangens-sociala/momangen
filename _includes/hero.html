@@ -14,7 +14,29 @@
         <p>På gång:</p>
         <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
         <h2><a href="{{ event.url }}" class="nodecoration">{{ event.title }}</a></h2>
-        <p>{{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}<br />
+        <p><!-- Whitespace added for readability -->
+          {% assign d = event.start_datetime | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a {% else %}{{ d }}:e{% endcase %}
+          
+          {% assign m = event.start_datetime | date: "%-m" %}
+
+          {% case m %}
+            {% when '1' %}Januar
+            {% when '2' %}Februar
+            {% when '3' %}Mars
+            {% when '4' %}April
+            {% when '5' %}Maj
+            {% when '6' %}Juni
+            {% when '7' %}Juli
+            {% when '8' %}Augusti
+            {% when '9' %}September
+            {% when '10' %}October
+            {% when '11' %}November
+            {% when '12' %}December
+          {% endcase %}
+          {{ event.start_datetime | date: "%Y" }}
+
+         
+           kl. {{ event.start_datetime | date: "%R"}}<br />
           Typ av konst: {{ event.category }}</p>
         <h3>{{ event.description | truncatewords: 10 }} <span><a href="{{ event.url }}">Läs mer</a></span></h3>
        
