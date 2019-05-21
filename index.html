@@ -3,7 +3,11 @@ title: Galleri och Kulturförening
 image: /siteicon.png
 layout: default
 ---
-
+{% for post in site.posts limit: 4 %}
+<div class="column">
+  
+</div>
+{% endfor %}
 <div class="column">
   <h2>{{ page.title }}</h2>
 
