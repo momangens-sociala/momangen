@@ -8,7 +8,7 @@
     {% if page.url == "/" %}
     <div id="poster" class="column">
 
-      {% for event in site.events limit: 1 %}
+      {% for event in site.data.events limit: 1 %}
 
       <div>
         <p>På gång:</p>
@@ -16,7 +16,7 @@
         <h2><a href="{{ event.url }}" class="nodecoration">{{ event.title }}</a></h2>
         <p>{{ event.start_datetime | date: "%Y-%m-%d"}} {{ event.start_datetime | date: "%R"}}<br />
           Typ av konst: {{ event.category }}</p>
-        <h3>{{ event.description | truncatewords: 10 }} <span style="font-family:'avant', 'Helvetica Neue', Helvetica, Arial, sans-serif"><a href="{{ event.url }}">Läs mer</a></span></h3>
+        <h3>{{ event.description | truncatewords: 10 }} <span><a href="{{ event.url }}">Läs mer</a></span></h3>
        
         
       </div>
