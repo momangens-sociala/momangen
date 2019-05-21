@@ -50,6 +50,21 @@ collections:
   events:
     output: "true"
     permalink: "/events/:title/"
+    _options:
+      image:
+        width: 960
+        height: 480
+        resize_style: "cover"
+        mime_type: "image/jpeg"
+        expandable: true
+        uploads_dir: "images/events"
+      content:
+        width: 540
+        height: 320
+        resize_style: "cover"
+        mime_type: "image/jpeg"
+        uploads_dir: "images/events"
+
 #   tjanster:
 #     output: "true"
 #     permalink: "/tjaenster/:name/"
