@@ -50,19 +50,6 @@ collections:
   events:
     output: "true"
     permalink: "/events/:title/"
-    _options:
-      image:
-        width: "960"
-        height: "480"
-        resize_style: "cover"
-        mime_type: "image/jpeg"
-        uploads_dir: "images/events"
-      content:
-        width: "150"
-        height: "150"
-        resize_style: "cover"
-        mime_type: "image/jpeg"
-        uploads_dir: "images/events"
 
 #   tjanster:
 #     output: "true"
@@ -81,52 +68,28 @@ permalink: /:categories/:year/:month/:day/:title/
 timezone: Europe/Stockholm
 
 defaults:
-  -
-    scope:
+  - scope:
       path:            "*.pdf"
     values:
       sitemap:         false
-#   - scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       layout: "default"
-#       _options:
-#         image:
-#           uploads_dir: "images"
-#           width: "1280"
-#           height: "720"
-#           mime_type: "image/jpeg"
-#           resize_style: "contain"
-#         hero_image:
-#           uplaods_dir: "images"
-#           width: 1280
-#           height: 720
-#           mime_type: "image/jpeg"
-#           resize_style: "cover"
-#         content:
-#           width: "1280"
-#           height: "720"
-#           uploads_dir: "images"
-#           mime_type: "image/jpeg"
-#           resize_style: "contain"
-#   - scope:
-#       path: ""
-#       type: "tjanster"
-#     values:
-#       layout: "tjaenster"
-#       image:
-#         uploads_dir: "images/tjaenster"
-#         width: "1024"
-#         height: "340"
-#         resize_style: "cover"
-#         mime_type: "image/jpeg"
-#       content:
-#         uploads_dir: "images/tjaenster"
-#         width: "1024"
-#         height: "340"
-#         resize_style: "cover"
-#         mime_type: "image/jpeg"
+
+  - scope:
+      path: ""
+      type: "events"
+      values:
+        _options:
+          image:
+            width: "960"
+            height: "480"
+            resize_style: "cover"
+            mime_type: "image/jpeg"
+            uploads_dir: "images/events"
+          content:
+            width: "150"
+            height: "150"
+            resize_style: "cover"
+            mime_type: "image/jpeg"
+            uploads_dir: "images/events"
 #   - scope:
 #       path: ""
 #       type: "posts"
