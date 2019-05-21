@@ -69,23 +69,23 @@ timezone: Europe/Stockholm
 
 defaults:
   - scope:
-      path:            "*.pdf"
+      path: "*.pdf"
     values:
-      sitemap:         false
+      sitemap: false
   - scope:
       path: ""
       type: "events"
       values:
         _options:
           flyer_image:
-            width: "960"
-            height: "480"
+            width: 960
+            height: 480
             resize_style: "cover"
             mime_type: "image/jpeg"
             uploads_dir: "images/events"
           content:
-            width: "150"
-            height: "150"
+            width: 150
+            height: 150
             resize_style: "cover"
             mime_type: "image/jpeg"
             uploads_dir: "images/events"
