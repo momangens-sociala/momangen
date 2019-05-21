@@ -77,7 +77,7 @@ defaults:
       type: "events"
       values:
         _options:
-          image:
+          flyer_image:
             width: "960"
             height: "480"
             resize_style: "cover"
