@@ -27,6 +27,8 @@ Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
 #### Max Park
 
+![](/images/events/maxpark.jpg){: srcset="/images/events/maxpark.jpg 150w, /images/events/maxpark@2x.jpg 300w" width="150" height="200"}
+
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.
 
 [Lyssna h&auml;r](https://maxppark.bandcamp.com/album/collages-ii){: target="_blank"}
