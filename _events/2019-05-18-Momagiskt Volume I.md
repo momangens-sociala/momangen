@@ -25,17 +25,19 @@ En samling om&ouml;jlig och musik med rimlig volym som du troligtvis aldrig h&ou
 
 Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
-#### Max Park
+#### &nbsp;
 
 ![](/images/events/maxpark.jpg){: srcset="/images/events/maxpark.jpg 150w, /images/events/maxpark@2x.jpg 300w" width="150" height="200"}
+
+#### Max Park
 
 Knastrande samplingar,<br>sommardoftande pianoslingor,<br>kassettloopar och bl&aring;s.<br>Collageartad experimentell popmusik<br>med &ouml;rat mot marken.
 
 [Lyssna h&auml;r](https://maxppark.bandcamp.com/album/collages-ii){: target="_blank"}
 
-#### Knivtid
-
 ![](/images/events/artistfoto.JPG){: srcset="/images/events/artistfoto.JPG 224w, /images/events/artistfoto@2x.JPG 448w" width="224" height="150"}
+
+#### Knivtid
 
 Utforskare av maskinsj&auml;lar, Knivtid g&ouml;r elektronisk och elektroakustisk musik som ibland skulle kunna kallas f&ouml;r ambient. Han kommer framf&ouml;ra den live f&ouml;r sin premi&auml;r, med hj&auml;lp av tv&aring; portastudios, flera bandspelare och hemmasnickrade bandloopar.
 
