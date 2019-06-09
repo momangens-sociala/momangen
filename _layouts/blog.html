@@ -6,7 +6,7 @@ layout: default
   <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
   Eventet börjar: <strong>{{ page.start_datetime | date: "%Y-%m-%d"}} klockan {{ page.start_datetime | date: "%R"}}</strong><br />
   Och slutar: <strong>{{ page.end_datetime | date: "%Y-%m-%d"}} klockan {{ page.end_datetime | date: "%R"}}</strong>
-  <img src="{{ site.baseurl}}{{ page.image}}" width="50%" style="float:right" />
+  <img src="{{ site.baseurl}}{{ flyer_image }}" width="50%" style="float:right" />
   <p>{{ page.description }}</p>
   {{ content }}
 
