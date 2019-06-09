@@ -4,9 +4,9 @@ layout: default
 <div class="column">
   <h1>{{ page.title }}</h1>
   <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
-  Eventet börjar: <strong>{{ page.start_datetime | date: "%Y-%m-%d"}} klockan {{ page.start_datetime | date: "%R"}}</strong><br />
-  Och slutar: <strong>{{ page.end_datetime | date: "%Y-%m-%d"}} klockan {{ page.end_datetime | date: "%R"}}</strong>
-  <img src="{{ site.baseurl}}{{ flyer_image }}" width="50%" style="float:right" />
+  Eventet börjar: <strong>{{ page.event_data.start_datetime | date: "%Y-%m-%d"}} klockan {{ page.event_data.start_datetime | date: "%R"}}</strong><br />
+  Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan {{ page.event_data.end_datetime | date: "%R"}}</strong>
+  <img src="{{ site.baseurl}}{{ page.flyer_image }}" width="50%" style="float:right" />
   <p>{{ page.description }}</p>
   {{ content }}
 
