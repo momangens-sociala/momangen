@@ -1,6 +1,6 @@
 ---
 name: Max Park
-blurb: >-
+blurb_text: >-
   Knastrande samplingar, Sommardoftande pianoslingor, Kassettloopar och blås,
   Collageartad experimentell popmusik, Med örat mot marken.
 nation: SWE

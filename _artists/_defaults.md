@@ -1,6 +1,6 @@
 ---
 name:
-blurb:
+blurb_text:
 nation:
 link:
 image:
