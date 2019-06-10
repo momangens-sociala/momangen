@@ -50,6 +50,8 @@ collections:
   events:
     output: "true"
     permalink: "/events/:title/"
+  artists:
+    output: "false"
 
 #   tjanster:
 #     output: "true"
@@ -89,6 +91,28 @@ defaults:
           resize_style: "cover"
           mime_type: "image/jpeg"
           uploads_dir: "images/events"
+      _comments:
+        title: Sidans tittle
+        description: Vad som kommer stå på länken i sociala medier
+        image: Flyer för eventet och bilden som visas på länken i sociala medier
+  - scope:
+      path: ""
+      type: "artists"
+    values:
+      _options:
+        image: 
+          width: 150
+          height: 150
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+          uploads_dir: "images/artists"
+      _comments:
+        name: Artistnamnet
+        blurb: Kort biografi
+        nation: Var kommer artisten ifrån (gärna förkortning)
+        link: Länk till artistens hemsida
+        image: bild på artisten (om det finns ett ansikte, se till att det är i mitten av bilden)
+
 #   - scope:
 #       path: ""
 #       type: "posts"
