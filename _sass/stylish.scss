@@ -71,7 +71,7 @@ a:active {
   display: flex;
   width: 100%;
   height: 100vh;
-  background: transparent;
+  background-color: rgba(201, 246, 236, 0.3);
   
   div {
     align-self: flex-end ;
@@ -129,13 +129,12 @@ a:active {
 }
 #footer {
   width:100%;
-  height: 50px;
   font-size: .6em;
   padding: 0;
   line-height: 1em;
   display: flex;
   flex-wrap: wrap;
-  /* background: linear-gradient(293deg, rgba(255, 0, 0, 0.25), rgba(0, 153, 255, 0.25)); */
+  background-color: rgba(201, 246, 236, 0.3);
 }
 
 .date {
