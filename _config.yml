@@ -96,6 +96,7 @@ defaults:
         title: Sidans tittle
         description: Vad som kommer stå på länken i sociala medier
         image: Flyer för eventet och bilden som visas på länken i sociala medier
+        artists: om du inte hittar artisten, måste du första skapa en profil. Du kan göra det i Explore
   - scope:
       path: ""
       type: "artists"
