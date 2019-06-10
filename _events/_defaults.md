@@ -8,8 +8,7 @@ image:
 link:
 category:
 artists:
-  - max_park
-  - knivtid
+  - 
 slutet_salskap: false
 published: false
 layout: blog
