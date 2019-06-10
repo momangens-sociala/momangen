@@ -8,5 +8,5 @@ blurb_text: |-
   Med örat mot marken.
 nation: SWE
 link: 'https://maxppark.bandcamp.com/album/collages-ii'
-image: /images/artists/maxpark2x.jpg
+image: /images/artists/max.jpg
 ---
