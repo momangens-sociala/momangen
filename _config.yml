@@ -94,8 +94,8 @@ defaults:
           uploads_dir: "images/events"
       _comments:
         title: Sidans tittle
-        description: Vad som kommer stå på länken i sociala medier
-        image: Flyer för eventet och bilden som visas på länken i sociala medier
+        description: Vad som kommer stå på länken i sociala medier och sökresultat
+        image: Flyer för eventet och bilden som visas på länken i sociala medier och sökresultat
         artists: om du inte hittar artisten, måste du första skapa en profil. Du kan göra det i Explore
         event_data: Här kan du ställa in start och slut datum/tid
         category: Är det musik eller utställning?
