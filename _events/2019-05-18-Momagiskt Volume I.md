@@ -13,9 +13,9 @@ category: music
 slutet_salskap: true
 published: true
 layout: blog
-artists: 
+artists:
   - max_park
-  - Knivtid
+  - knivtid
 ---
 
 ### Vad kommer h&auml;nda?
