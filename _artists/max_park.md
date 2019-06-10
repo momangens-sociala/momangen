@@ -7,6 +7,6 @@ blurb_text: |-
   Collageartad experimentell popmusik, 
   Med örat mot marken.
 nation: SWE
-link: 'https://maxppark.bandcamp.com/album/collages-ii'
+link: 'https://maxppark.bandcamp.com/'
 image: /images/artists/max.jpg
 ---
