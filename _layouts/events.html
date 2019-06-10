@@ -15,12 +15,15 @@ layout: default
   <p>{{ page.description }}</p>
   {{ content }}
   <div class="column">
-    {% for artist in page.artists %}
 
+
+    {% assign artist_id = page.artists %}
+    {% assign artist = site.artists %}
+    {% for featured in page.artists %}
     <div>
-      <div class="artist" style="background-image:url({{ site.baseurl }}{{ artist.image }})">
-        <h3>{{ artist.name }}</h3>
-      </div>
+
+      <div class="square-image" style="background-image: url('{{ featured.image }}')"></div>
+      <p class="blurb">{{ featured.blurb_text }}</p>
     </div>
     {% endfor %}
   </div>
@@ -28,7 +31,7 @@ layout: default
 </div>
 {% if page.slutet_salskap == true %}
 <div class="column">
-    {% if page.slutet_salskap == true %}
+  {% if page.slutet_salskap == true %}
   <h2>OBS! Du måste vara stödmedlem!</h2>
   {% endif %}
   {% include contact.html %}
