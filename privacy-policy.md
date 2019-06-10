@@ -25,4 +25,4 @@ When you use the contact form, the information you submitted is stored for a max
 
 ### Regrets
 
-You can at anytime ask to be removed you our secure registry. By sending an email to <info+gdpr@momangen.se> It will make us a bit sad but it's ok.
+You can at anytime ask to be removed you our secure registry. By sending an email to <a href="mailto:info+gdpr@momangen.se">info+gdpr@momangen.se</a> It will make us a bit sad but it's ok.
