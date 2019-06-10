@@ -96,10 +96,11 @@ defaults:
         title: Sidans tittle
         description: Vad som kommer stå på länken i sociala medier och sökresultat
         image: Flyer för eventet och bilden som visas på länken i sociala medier och sökresultat
-        artists: om du inte hittar artisten, måste du första skapa en profil. Du kan göra det i Explore
+        artists: Om du inte hittar artisten, måste du första skapa en profil. Du kan göra det i Explore
         event_data: Här kan du ställa in start och slut datum/tid
         category: Är det musik eller utställning?
         link: Finns det en event sida någon stans?
+        date: När ska eventsidan publiceras?
   - scope:
       path: ""
       type: "artists"
