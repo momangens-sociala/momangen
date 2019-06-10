@@ -12,5 +12,4 @@ artists:
   - 
 slutet_salskap: false
 published: false
-layout: blog
 ---

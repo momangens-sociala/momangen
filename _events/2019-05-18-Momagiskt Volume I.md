@@ -15,8 +15,6 @@ artists:
   - knivtid
 slutet_salskap: true
 published: true
-layout: blog
-
 ---
 
 ### Vad kommer h&auml;nda?

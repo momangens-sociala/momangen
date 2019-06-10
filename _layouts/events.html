@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<div class="column">
+  <div style="padding:0 3px 3px 3px;border-radius: 3px;" class="highlight">
+    <h1>{{ page.title }}</h1>
+    <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+    Eventet börjar: <strong>{{ page.event_data.start_datetime | date: "%Y-%m-%d"}} klockan
+      {{ page.event_data.start_datetime | date: "%R"}}</strong><br />
+    Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan
+      {{ page.event_data.end_datetime | date: "%R"}}</strong><br />
+  </div>
+  <br />
+  <img src="{{ site.baseurl}}{{ page.image }}" width="50%" style="float:right" />
+  <p>{{ page.description }}</p>
+  {{ content }}
+
+  {% if page.slutet_salskap == true %}
+  <h2>OBS! Du måste vara stödmedlem!</h2>
+  {% endif %}
+</div>
+{% if page.slutet_salskap == true %}
+<div class="column">
+  {% include contact.html %}
+</div>
+{% endif %}
