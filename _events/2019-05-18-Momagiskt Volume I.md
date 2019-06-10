@@ -29,7 +29,7 @@ Momagiskts alldeles egna resident, st&aring;r f&ouml;r vinylselection.
 
 #### &nbsp;
 
-![](/images/events/maxpark.jpg){: srcset="/images/events/maxpark.jpg 150w, /images/events/maxpark@2x.jpg 300w" width="150" height="200"}
+![](/images/events/maxpark2x.jpg){: width="150" height="200"}
 
 #### Max Park
 
@@ -37,7 +37,7 @@ Knastrande samplingar,<br>Sommardoftande pianoslingor,<br>Kassettloopar och bl&a
 
 [Lyssna h&auml;r](https://maxppark.bandcamp.com/album/collages-ii){: target="_blank"}
 
-![](/images/events/artistfoto.JPG){: srcset="/images/events/artistfoto.JPG 224w, /images/events/artistfoto@2x.JPG 448w" width="224" height="150"}
+![](/images/events/artistfoto2x.JPG){: srcset="/images/events/artistfoto2x.JPG 224w, /images/events/artistfoto2x@2x.JPG 448w" width="224" height="150"}
 
 #### Knivtid
 
