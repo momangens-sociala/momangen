@@ -51,7 +51,6 @@ collections:
     output: "true"
     permalink: "/events/:title/"
   artists:
-    output: "false"
     _hide_content: "true"
 
 #   tjanster:

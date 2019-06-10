@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- begin events.html -->
 <div class="column">
   <div style="padding:0 3px 3px 3px;border-radius: 3px;" class="highlight">
     <h1>{{ page.title }}</h1>
@@ -14,20 +15,21 @@ layout: default
   <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
   <p>{{ page.description }}</p>
   {{ content }}
-  <div class="column">
+</div>
+  <div class="column" style="z-index: 10000000;">
 
+      {% assign author_id = page.artist.deltagande_artists %}
+      {% assign author = site.artists | where: "url", author_id | first %}
+      {% for artist in page.deltagande_artists %}
+<div class="square-image" style="background-image: url('{{ author.image }}')"></div>
 
-    {% assign artist_id = page.artists %}
-    {% assign artist = site.artists %}
-    {% for featured in page.artists %}
+    <p class="blurb">{{ author.blurb_text }}</p>
+
     <div>
 
-      <div class="square-image" style="background-image: url('{{ featured.image }}')"></div>
-      <p class="blurb">{{ featured.blurb_text }}</p>
-    </div>
+
     {% endfor %}
   </div>
-
 </div>
 {% if page.slutet_salskap == true %}
 <div class="column">
@@ -40,3 +42,4 @@ layout: default
   {% include hittahit.html %}
 </div>
 {% endif %}
+<!-- END events.html -->
