@@ -14,13 +14,26 @@ layout: default
   <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
   <p>{{ page.description }}</p>
   {{ content }}
+  <div class="column">
+    {% for artist in page.artists %}
 
-  {% if page.slutet_salskap == true %}
-  <h2>OBS! Du måste vara stödmedlem!</h2>
-  {% endif %}
+    <div>
+      <div class="artist" style="background-image:url({{ site.baseurl }}{{ artist.image }})">
+        <h3>{{ artist.name }}</h3>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
 </div>
 {% if page.slutet_salskap == true %}
 <div class="column">
+    {% if page.slutet_salskap == true %}
+  <h2>OBS! Du måste vara stödmedlem!</h2>
+  {% endif %}
   {% include contact.html %}
+</div>
+<div class="column">
+  {% include hittahit.html %}
 </div>
 {% endif %}
