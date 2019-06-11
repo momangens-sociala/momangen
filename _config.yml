@@ -50,6 +50,8 @@ collections:
   events:
     output: "true"
     permalink: "/events/:title/"
+  artists:
+    _hide_content: "true"
 
 #   tjanster:
 #     output: "true"
@@ -76,6 +78,7 @@ defaults:
       path: ""
       type: "events"
     values:
+      layout: "events"
       _options:
         image:
           width: 960
@@ -89,6 +92,33 @@ defaults:
           resize_style: "cover"
           mime_type: "image/jpeg"
           uploads_dir: "images/events"
+      _comments:
+        title: Sidans tittle
+        description: Vad som kommer stå på länken i sociala medier och sökresultat
+        image: Flyer för eventet och bilden som visas på länken i sociala medier och sökresultat
+        artists: Om du inte hittar artisten, måste du första skapa en profil. Du kan göra det i Explore
+        event_data: Här kan du ställa in start och slut datum/tid
+        category: Är det musik eller utställning?
+        link: Finns det en event sida någon stans?
+        date: När ska eventsidan publiceras?
+  - scope:
+      path: ""
+      type: "artists"
+    values:
+      _options:
+        image: 
+          width: 150
+          height: 150
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+          uploads_dir: "images/artists"
+      _comments:
+        name: Artistnamnet
+        blurb: Kort biografi
+        nation: Var kommer artisten ifrån (gärna förkortning)
+        link: Länk till artistens hemsida
+        image: bild på artisten (om det finns ett ansikte, se till att det är i mitten av bilden)
+
 #   - scope:
 #       path: ""
 #       type: "posts"
