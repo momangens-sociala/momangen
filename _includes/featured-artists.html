@@ -1,11 +1,25 @@
 <div class="column">
-
-    {% for name in page.deltagande_artists %}
-    {% assign item = site.artists | where: "name", name  | first %}
-  
-
-  <div class="square-image" style="background-image: url('{{ item.image }}')"></div>
-
-  <p class="blurb">{{ item.blurb_text }}</p>
+ 
+    {% for artist_name in page.deltagande_artists %}
+    {% for artist in site.artists %}
+    {% capture name -%}
+      {{ artist.relative_path
+        | replace_first: artist.collection, ''
+        | replace_first: '_/', ''
+        | replace_first: '.md', ''
+      }}
+    {%- endcapture %}
+    {% if name == artist_name %}
+    <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
+    <h3>{{ artist.name }}</h3>
+    <p class="blurb">{{ artist.blurb_text }}</p>
+ 
+      
+      {% break %}
+    {% endif %}
+    {% endfor %}
   {% endfor %}
+
+
+
 </div>
