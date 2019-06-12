@@ -1,9 +1,9 @@
 <div class="column">
 
-  {% for artist in page.deltagande_artists %}
   {% assign author_id = page.artist %}
   {% assign author = site.artists | where: "name", author_id | first %}
 
+  {% for artist in page.deltagande_artists %}
   <div class="square-image" style="background-image: url('{{ author.image }}')"></div>
 
   <p class="blurb">{{ author.blurb_text }}</p>
