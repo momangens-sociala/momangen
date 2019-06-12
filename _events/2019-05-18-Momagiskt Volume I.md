@@ -11,8 +11,8 @@ event_data:
   end_datetime: 2019-06-14 23:00:00 +0200
 category: music
 deltagande_artists:
-  - max_park
-  - knivtid
+  - Max Park
+  - Knivtid
 slutet_salskap: true
 published: true
 ---
