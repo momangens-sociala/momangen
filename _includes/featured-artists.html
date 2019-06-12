@@ -1,25 +1,26 @@
 <div class="column">
   <h2>Vem {% if page.category == 'music' %}spelar? {% else %}Ställer ut?{% endif %}</h2>
-    {% for artist_name in page.deltagande_artists %}
-    {% for artist in site.artists %}
-    {% capture name -%}
-      {{ artist.relative_path
+  {% for artist_name in page.deltagande_artists %}
+  {% for artist in site.artists %}
+  {% capture name -%}
+  {{ artist.relative_path
         | replace_first: artist.collection, ''
         | replace_first: '_/', ''
         | replace_first: '.md', ''
       }}
-    {%- endcapture %}
-    {% if name == artist_name %}
-    <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
-    <h3>{{ artist.name }}</h3>
-    <p class="blurb">{{ artist.blurb_text }}<br />
-    <a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">{% if page.category == 'music'%}Lyssna{% else %}Mer infor{% endif %} här</a>
-    </p>
-    
-      
-      {% break %}
-    {% endif %}
-    {% endfor %}
+  {%- endcapture %}
+  {% if name == artist_name %}
+  <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
+  <h3>{{ artist.name }}</h3>
+  <p class="blurb">{{ artist.blurb_text }}<br />
+    {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank"
+      rel="noopener noreferrer nofollow">{% if page.category == 'music'%}Lyssna{% else %}Mer infor{% endif %}
+      här</a>{% endif %}</p>
+
+
+  {% break %}
+  {% endif %}
+  {% endfor %}
   {% endfor %}
 
 
