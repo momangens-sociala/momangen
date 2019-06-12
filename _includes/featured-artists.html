@@ -12,8 +12,10 @@
     {% if name == artist_name %}
     <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
     <h3>{{ artist.name }}</h3>
-    <p class="blurb">{{ artist.blurb_text }}</p>
- 
+    <p class="blurb">{{ artist.blurb_text }}<br />
+    <a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">{% if page.category == 'music'%}Lyssna{% else %}Mer infor{% endif %} här</a>
+    </p>
+    
       
       {% break %}
     {% endif %}
