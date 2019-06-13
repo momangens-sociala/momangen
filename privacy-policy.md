@@ -21,7 +21,7 @@ We don't use cookies. So you don't have to worry about that. Simply because:
 
 ### Contact information
 
-When you use the contact form, the information you submitted is stored for a maximum of 30 days on our server. The information you submitted will however be added to our secure contact registry.
+When you use the contact form, the information you submitted is stored for a maximum of 30 days on our server. The information you submitted will however be added to our secure contact off-line registry.
 
 ### Regrets
 
