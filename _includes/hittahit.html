@@ -5,12 +5,15 @@
     <img src="/images/map.jpg" width="100%" /><br /><br />
     <h4>Kocksgatan 23 <br />116 24 Stockholm</h4>
   </a>
+  {% if page.url == '/'%}
   <p>Öppettider varierar. Just nu är det:</p>
   <p>
     <strong>
-      Stängt för almänheten!
-     
+      {% if page.open == '' or page.open == 'true' %}Öppet för almänheten!
+      {% else %}Produktion på gång, kom tillbaka snart. Bli stödmedlem och skriv en dikt till oss undertiden!
+      {% endif %}
     </strong>
   </p>
+  {% endif %}
 </div>
 <!-- begin hittahit.html -->
