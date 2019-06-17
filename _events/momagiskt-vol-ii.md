@@ -9,6 +9,8 @@ image: /images/events/screenshot-2019-06-17-12-04-38.jpg
 link:
 category: ljudkonst
 deltagande_artists:
+  - marco-rubilar
+  - nimrod
 slutet_salskap: true
 published: true
 ---
