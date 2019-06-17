@@ -54,6 +54,7 @@ collections:
     permalink: "/artists/:title/"
     _hide_content: "true"
     output: "true"
+    
 
 #   tjanster:
 #     output: "true"
@@ -112,6 +113,7 @@ defaults:
       path: ""
       type: "artists"
     values:
+      layout: "artists"
       _options:
         image: 
           width: 150

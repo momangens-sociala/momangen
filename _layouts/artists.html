@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="column">
+  <h1>{{ page.title }}</h1>
+  <div class="square-image" style="background-image: url('{{ page.image }}')"></div>
+
+  <h4 class="blurb">{{ page.blurb_text }}<br /></h4>
+    {% if page.link != null %}<a class="cta" href="{{ page.link }}" trarget="_blank"
+      rel="noopener noreferrer nofollow">{% if page.category == 'ljudkonst'%}Lyssna{% else %}Mer info{% endif %}
+      här</a>{% endif %}
+
+</div>
+<div class="column">
+{% include contact.html %}
+</div>
