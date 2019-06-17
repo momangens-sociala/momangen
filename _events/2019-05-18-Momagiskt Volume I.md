@@ -9,7 +9,7 @@ link: 'https://www.facebook.com/events/2416889711931362/'
 event_data:
   start_datetime: 2019-06-14 17:00:00 +0200
   end_datetime: 2019-06-14 23:00:00 +0200
-category: music
+category: ljudkonst
 deltagande_artists:
   - max_park
   - knivtid
@@ -20,4 +20,4 @@ published: true
 
 ### Vad kommer h&auml;nda?
 
-En samling om&ouml;jligt lugn musik med som du troligtvis aldrig h&ouml;rt kommer att spelas. Dels i form av ett urval delici&ouml;sa vinyler, samt levande elektronisk musik.
+En samling omöjligt lugn musik med som du troligtvis aldrig hört kommer att spelas. Dels i form av ett urval deliciösa vinyler, samt levande elektronisk musik.
