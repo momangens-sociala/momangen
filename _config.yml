@@ -76,6 +76,11 @@ defaults:
       sitemap: false
   - scope:
       path: ""
+    values:
+      _comments:
+        open: Slå på vignetten på hemsidan som visar för cyberrymden att vi har öppet
+  - scope:
+      path: ""
       type: "events"
     values:
       layout: "events"
