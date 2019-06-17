@@ -1,5 +1,5 @@
 ---
-name: Marco Rubliar
+name: Marco Rubilar
 blurb_text:
 nation:
 link:
