@@ -52,7 +52,8 @@ collections:
     permalink: "/events/:title/"
   artists:
     permalink: "/artists/:title/"
-    _hide_content: "false"
+    _hide_content: "true"
+    output: "true"
 
 #   tjanster:
 #     output: "true"
