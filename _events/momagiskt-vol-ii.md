@@ -7,9 +7,10 @@ event_data:
   end_datetime: 2019-06-28 23:00:00 +0200
 image: /images/events/screenshot-2019-06-17-12-04-38.jpg
 link:
-category: music
+category: ljudkonst
 deltagande_artists:
 slutet_salskap: true
 published: true
 ---
-Plotten tjocknar. Vad är detta?
+
+Plotten tjocknar. Vad &auml;r detta?
