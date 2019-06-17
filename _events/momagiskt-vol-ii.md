@@ -1,5 +1,5 @@
 ---
-title: Momagiskt Vol.II
+title: 'Momangens Sociala Presenterar: Momagiskt Vol.II'
 description: En momagisk afton i njutomjorden med levande elektronisk mysmusik.
 date: 2019-06-16 00:00:00 +0200
 event_data:
