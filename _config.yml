@@ -153,3 +153,9 @@ defaults:
 #           width: "120"
 #           height: "120"
 #           resize_style: "cover"
+
+categories:
+  - ljudkonst
+  - bildkonst
+  - gatukonst
+  - graffiti
