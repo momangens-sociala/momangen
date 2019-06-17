@@ -8,8 +8,8 @@ event_data:
 image:
 link:
 category:
-artists:
+deltagande_artists:
   - 
-slutet_salskap: false
-published: false
+slutet_salskap: true
+published: true
 ---
