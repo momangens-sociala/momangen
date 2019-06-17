@@ -1,5 +1,5 @@
 <div class="column">
-  <h2>Vem {% if page.category == 'ljudkonst' %}spelar? {% else %}Ställer ut?{% endif %}</h2>
+  <h3>Vem {% if page.category == 'ljudkonst' %}spelar? {% else %}Ställer ut?{% endif %}</h3>
   {% for artist_name in page.deltagande_artists %}
   {% for artist in site.artists %}
   {% capture name -%}
@@ -11,13 +11,11 @@
   {%- endcapture %}
   {% if name == artist_name %}
   <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
-  <h3>{{ artist.name }}</h3>
+  <h4>{{ artist.name }}</h4>
   <p class="blurb">{{ artist.blurb_text }}<br />
     {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank"
       rel="noopener noreferrer nofollow">{% if page.category == 'ljudkonst'%}Lyssna{% else %}Mer info{% endif %}
       här</a>{% endif %}</p>
-
-
   {% break %}
   {% endif %}
   {% endfor %}

@@ -7,8 +7,6 @@ open: false
 
 <!-- begin /index.html -->
 <div class="column">
-  <h2>{{ page.title }}</h2>
-
   <div class="editable">
     <h3>Om Kulturf&ouml;reningen Momangen</h3>
     <p>Det f&ouml;rsta fr&ouml;et till Kulturf&ouml;reningen Momangen s&aring;ddes genom en enkel fr&aring;ga p&aring;
@@ -19,6 +17,10 @@ open: false
       november 2011 och har sedan dess anv&auml;nts som atelj&eacute; och verkstad av f&ouml;reningens medlemmar.
       F&ouml;reningen har just nu 13 medlemmar som spiller f&auml;rg, bygger skulpturer, skriver, musicerar, fotar och
       pysslar p&aring; i v&aring;rt alldeles egna vuxendagis.</p>
+  </div>
+</div>
+<div class="column">
+    <div class="editable">
     <h3>Om Galleri Momangen</h3>
     <p>Galleri Momangen drivs av Kulturf&ouml;reningen Momangens medlemmar och &auml;r s&aring;ledes
       konstn&auml;rsdrivet. Galleriet &auml;r bel&auml;get i f&ouml;reningens atelj&eacute; och verkstad och
@@ -30,14 +32,12 @@ open: false
   </div>
 </div>
 <div class="column">
-{% include past-events.html %}
-
-</div>
-<div class="column">
-  {% include hittahit.html %}
-</div>
-
-<div class="column">
   {% include contact.html %}
+</div>
+<div class="column">
+  {% include past-events.html %}
+</div>
+<div class="column">
+    {% include hittahit.html %}
 </div>
 <!-- END   /index.html -->
