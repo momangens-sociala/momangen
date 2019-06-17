@@ -7,8 +7,12 @@
     <a href="{{ site.baseurl }}/" class="nodecoration"><img src="{{ site.baseurl }}/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" /></a>
     {% if page.url == "/" %}
     <div id="poster" class="column">
+      {{ site.date }}
 
+      <!-- Begin Up next -->
       {% for event in site.events limit: 1 %}
+
+    {% if site.date <= post.event_data.end_datetime %}
 
       <div>
         <p>På gång:</p>
@@ -42,7 +46,11 @@
        
         
       </div>
+      {% endif %}
       {% endfor %}
+
+<!-- end Up next-->
+
     </div>
     {% else %}{% endif %}
   </div>
