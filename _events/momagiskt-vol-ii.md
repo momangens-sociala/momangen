@@ -1,10 +1,10 @@
 ---
 title: Momagiskt Vol.II
 description:
-date:
+date: 2019-06-17 00:00:00 +0200
 event_data:
-  start_datetime:
-  end_datetime:
+  start_datetime: 2019-06-28 00:00:00 +0200
+  end_datetime: 2019-06-28 23:00:00 +0200
 image:
 link:
 category: music
