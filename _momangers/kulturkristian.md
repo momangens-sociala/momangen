@@ -1,6 +1,6 @@
 ---
 namn: Kulturkristian
-image: https://source.unsplash.com/collection/139386/150x150?a=.jpg
+image: /uploads/kulturkristian.jpeg
 blurb_text:
 link:
 ---
