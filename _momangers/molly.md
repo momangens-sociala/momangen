@@ -1,6 +1,6 @@
 ---
 namn: Molly
-image: /uploads/molly.jpeg
+image: /images/momangers/molly.jpg
 blurb_text:
 link:
 ---
