@@ -26,7 +26,7 @@ link:
 category: bildkonst
 deltagande_artists:
   - martinnordell
-slutet_salskap: true
+slutet_salskap: false
 published: true
 ---
 
