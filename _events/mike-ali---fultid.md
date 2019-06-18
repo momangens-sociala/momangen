@@ -16,8 +16,6 @@ slutet_salskap: false
 published: true
 ---
 
-Mike-Ali r&auml;ds inte att skildra samtiden i sina verk. Den h&auml;r utst&auml;llningen handlar om m&auml;nsklighetens p&aring;verkan p&aring; sin omgivning. Han har tidigare skildrat samma tema men s&auml;ger nu att det har blivit lite aggressivare d&aring; moder jord och djuren har f&aring;tt nog.
+Han har tidigare skildrat samma tema men s&auml;ger nu att det har blivit lite aggressivare d&aring; moder jord och djuren har f&aring;tt nog.
 
-[https://mike-ali.com](https://mike-ali.com/){: target="_blank"}
-
-[https://instagram.com/mike\_ali](https://instagram.com/mike_ali)
+[https://mike-ali.com](https://mike-ali.com/){: target="_blank"}<br>[https://instagram.com/mike\_ali](https://instagram.com/mike_ali)
