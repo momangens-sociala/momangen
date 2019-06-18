@@ -48,16 +48,15 @@ plugins:
 # # collection
 collections:
   events:
-    output: "true"
+    output: true
     permalink: "/events/:title/"
   artists:
     permalink: "/artists/:title/"
-    _hide_content: "true"
-    output: "true"
+    _hide_content: true
+    output: false
   momangers:
-    permalink: "/momangers/:title/"
-    _hide_content: "true"
-    output: "false"
+    _hide_content: true
+    output: false
     
 
 #   tjanster:
