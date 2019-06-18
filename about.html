@@ -1,0 +1,27 @@
+---
+title: Om Oss
+description: Om Kulturföreningen och Galleri Momangen sammt dess medlemmar.
+layout: default
+---
+<div class="column">
+  <div class="editable">
+    <h3>Om Kulturf&ouml;reningen Momangen</h3>
+    <p>Det f&ouml;rsta fr&ouml;et till Kulturf&ouml;reningen Momangen s&aring;ddes genom en enkel fr&aring;ga p&aring;
+      ett forum "Finns det n&aring;gra som vill dela en lokal att spilla f&auml;rg i?". Detta ledde till att sex
+      personer tog en diskussion &ouml;ver n&aring;gra &ouml;l p&aring; Carmen och tre m&aring;nader senare var
+      f&ouml;reningen startad. Jakten p&aring; passande lokal startades och i januari 2011 hade medlemmarna
+      &auml;ntligen nycklarna till lokalen p&aring; Kocksgatan. Efter idogt renoveringsarbete invigdes lokalen i
+      november 2011 och har sedan dess anv&auml;nts som atelj&eacute; och verkstad av f&ouml;reningens medlemmar.
+      F&ouml;reningen har just nu 13 medlemmar som spiller f&auml;rg, bygger skulpturer, skriver, musicerar, fotar och
+      pysslar p&aring; i v&aring;rt alldeles egna vuxendagis.</p>
+  </div>
+</div>
+{% for artist in site.momangers %}
+<div class="column">
+  <img src="{{ artist.image }}" />
+  <h4>{{ artist.namn }}</h4>
+  <p class="blurb">{{ artist.blurb_text }}<br />
+    {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">Mer info
+      här</a>{% endif %}</p>
+</div>
+{% endfor %}

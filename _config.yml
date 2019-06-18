@@ -54,6 +54,10 @@ collections:
     permalink: "/artists/:title/"
     _hide_content: "true"
     output: "true"
+  momangers:
+    permalink: "/momangers/:title/"
+    _hide_content: "true"
+    output: "false"
     
 
 #   tjanster:
