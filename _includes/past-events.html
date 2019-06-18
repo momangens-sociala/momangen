@@ -1,9 +1,10 @@
 <h3>Förflutna events</h3>
+
 {% capture now -%}
 {{ site.time | date: '%s' }}
 {%- endcapture %}
 {% assign events = site.events | reverse %}
-{% for event in events | limit: 10 %}
+{% for event in events | limit: 8 %}
 
 {% capture endtime -%}
 {{ event.event_data.end_datetime | date: '%s' }}
@@ -14,7 +15,7 @@
   <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
     <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
   </p>
-
+<hr />
 </div>
 {% endif %}
 {% endfor %}
