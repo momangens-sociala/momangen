@@ -17,8 +17,6 @@ slutet_salskap: false
 published: true
 ---
 
-För tv&aring; &aring;r sedan blev vi g&auml;stade av Koben, d&aring; den första utst&auml;llningen med denna, det blev en braksucc&eacute; för detta sprudlande, egensinniga fenomen till konstn&auml;r.
-
 Vi skrev d&aring; att det handlade om "Egensinniga portr&auml;tt av b&aring;de m&auml;nniskor och djur, m&aring;lat p&aring; och med vad som funnits till hands. B&aring;de utst&auml;llningen och konstn&auml;ren sammanfattas med: "v&auml;ldigt full o dum i huve och kladd o djur o f&auml;rg o folk". - och det kan v&auml;l sammanfatta det hela n&auml;r Koben nu &auml;ntligen &aring;terv&auml;nder till Stockholm med nya verk.
 
 [https://www.facebook.com/kobenzzon/](https://www.facebook.com/kobenzzon/){: target="_blank"}
