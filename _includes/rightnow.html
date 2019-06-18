@@ -1,0 +1,18 @@
+<div id="rightnow">
+  {% if site.data.open.open == true %}
+  <h4>Just Nu:</h4>
+  <h3>Öppet<br />för almänheten!</h3>
+  <p>Kom hit!</p>
+  {% else %}
+  <h4>Just Nu:</h4>
+  <h3>Produktion <br />på gång! </h3>
+  <p>kom tillbaka snart!
+    <br /><a href="{{ site.baseurl }}/privacy-policy/">Bli stödmedlem</a></p>
+    {% endif %}
+</div>
+
+<script type="text/javascript">
+  $(window).scroll(function(){
+      $("#rightnow").css("opacity", 1 - $(window).scrollTop() / 650);
+  });
+</script>
