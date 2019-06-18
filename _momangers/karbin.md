@@ -1,6 +1,6 @@
 ---
 namn: Karbin
-image: https://source.unsplash.com/collection/139386/150x150?a=.jpg
+image: /uploads/karbin.jpeg
 blurb_text:
 link:
 ---
