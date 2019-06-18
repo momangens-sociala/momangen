@@ -22,16 +22,17 @@ input[type=text], input[type=email], textarea, select {
 input[type=submit] {
   width: 200px;
   background: linear-gradient(97deg, rgb(84, 241, 210), rgb(165, 202, 195));
-  color: white;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 input[type=submit]:hover {
-  background: linear-gradient(97deg, rgb(84, 241, 210), rgb(165, 202, 195));
+  background: linear-gradient(97deg, rgb(165, 202, 195), rgb(84, 241, 210));
 
 }
 /* CSS Created by CSS CHECKBOX */

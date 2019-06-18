@@ -3,7 +3,7 @@
 
   <div>
     <a href="{{ site.baseurl }}/" class="nodecoration"><img
-        src="{{ site.baseurl }}/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" /></a>
+        src="{{ site.baseurl }}/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
     {% if page.url == "/" %}
     <div id="poster">
       <!-- Begin Up next -->
@@ -38,8 +38,8 @@
           {{ event.event_data.start_datetime | date: "%Y" }}
           kl. {{ event.event_data.start_datetime | date: "%R"}}<br />
           Typ av konst: {{ event.category }}</p>
-        <h3>{{ event.event_data.description | truncatewords: 10 }} <span><a href="{{ event.url }}">Läs mer</a></span>
-        </h3>
+        <h3>{{ event.description | truncatewords: 10 }} </h3>
+        <p><a class="cta" href="{{ event.url }}">Läs mer</a></p>
       </div>
       {% break %}
       {% endif %}

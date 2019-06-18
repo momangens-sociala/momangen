@@ -119,6 +119,7 @@ a:active {
 
 }
 .column {
+  
   flex: 1 0 320px;
   margin-left:5px;
   margin-right: 5px;
@@ -146,14 +147,18 @@ a:active {
 .highlight {
   background-image: url('/images/tile.png');
 }
-.cta{
+a.cta{
   background: linear-gradient(97deg, rgb(84, 241, 210), rgb(165, 202, 195));
-  color: white;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a.cta:hover {
+  background: linear-gradient(97deg, rgb(165, 202, 195), rgb(84, 241, 210));
 }
 .square-image {
   width: 150px;
@@ -181,4 +186,19 @@ a:active {
   background-position: center;
   width: 150px;
   height: 150px;
+}
+.flexitem {
+  display: flex;
+  flex-wrap: wrap;
+  .column2 {  
+    flex: 0 0 250px;
+    margin-left:5px;
+    margin-right: 5px;
+    z-index: 10;
+    img {
+      float: left;
+      margin-right: 5px;
+      border-radius: 3px;
+    }
+  }
 }
