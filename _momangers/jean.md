@@ -1,6 +1,6 @@
 ---
 namn: Jean
-image: /uploads/jean.jpeg
+image: /images/momangers/jean.jpg
 blurb_text:
 link:
 ---
