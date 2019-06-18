@@ -1,6 +1,6 @@
 ---
 namn: Andres
-image: /uploads/andres.jpeg
+image: /images/momangers/andres.jpg
 blurb_text:
 link:
 ---
