@@ -1,6 +1,6 @@
 ---
 namn: Magnus
-image: /uploads/magnus.jpeg
+image: /images/momangers/magnus.jpg
 blurb_text:
 link:
 ---
