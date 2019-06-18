@@ -2,9 +2,7 @@
 title: Mike-Ali - "Fultid"
 description: >-
   Mike-Ali räds inte att skildra samtiden i sina verk. Den här utställningen
-  handlar om mänsklighetens påverkan på sin omgivning. Han har tidigare skildrat
-  samma tema men säger nu att det har blivit lite aggressivare då moder jord och
-  djuren har fått nog.
+  handlar om mänsklighetens påverkan på sin omgivning.
 date: 2018-10-01 00:00:00 +0200
 event_data:
   start_datetime: 2018-11-23 00:00:00 +0100
