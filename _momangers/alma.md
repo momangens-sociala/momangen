@@ -1,6 +1,6 @@
 ---
 namn: Alma
-image: /uploads/alma.jpeg
+image: /images/momangers/alma.jpg
 blurb_text:
 link:
 ---
