@@ -1,6 +1,6 @@
 ---
 namn: Astrid
-image: /uploads/astrid.jpeg
+image: /images/momangers/astrid.jpg
 blurb_text:
 link:
 ---
