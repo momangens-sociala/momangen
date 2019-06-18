@@ -148,7 +148,7 @@ a:active {
   background-image: url('/images/tile.png');
 }
 a.cta{
-  background: linear-gradient(97deg, rgb(84, 241, 210), rgb(165, 202, 195));
+  background-color: rgb(165, 202, 195);
   color: black;
   padding: 14px 20px;
   margin: 8px 0;
@@ -156,9 +156,14 @@ a.cta{
   border-radius: 4px;
   cursor: pointer;
   font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -ms-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 a.cta:hover {
-  background: linear-gradient(97deg, rgb(165, 202, 195), rgb(84, 241, 210));
+  background-color: rgb(84, 241, 210);
 }
 .square-image {
   width: 150px;
