@@ -1,6 +1,6 @@
 ---
 namn: Karbin
-image: /uploads/karbin.jpeg
+image: /images/momangers/karbin.jpg
 blurb_text:
 link:
 ---
