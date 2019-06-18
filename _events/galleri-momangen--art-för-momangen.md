@@ -1,12 +1,11 @@
 ---
 title: Galleri momangen // Art för momangen
 description: >-
-  Sedan starten 2011 har vi arrangerat  utställningar, workshops, samtal, fester
-  och marknader – utan en krona i bidrag. 
-
-  Vi har egen ateljé och verkstad för våra medlemmar. Vi deltar varje år i
-  Stockholms kulturnatt och med evenemanget Art for aid har vi gett stöd till
-  barn i krigsdrabbade Kobane och gatubarn i Stockholm.
+  Galleri Momangen tar nya tag! Vi arrangerar en kväll för Momangen med verk
+  till salu från konstnärer och aktörer som:Iron, Hello Banana, Jessica
+  Hallbäck, Hop Louie, JoAnn Kneedler, Verbal Förlag, Ivar Martinsson, TONK,
+  Michaela Peverelli, Varja Berg, JC, Mark IOH Andersson, John Beijer, Lotta
+  Åkre, Smol, Lilac Lady, Marcus Karbin, Pintamonoz med flera!
 date: 2017-10-15 00:00:00 +0200
 event_data:
   start_datetime: 2017-11-27 18:00:00 +0100
@@ -19,10 +18,6 @@ deltagande_artists:
 slutet_salskap: false
 published: true
 ---
-
-Galleri Momangen tar nya tag\!
-
-Vi arrangerar en kv&auml;ll för Momangen med verk till salu fr&aring;n konstn&auml;rer och aktörer som:Iron, Hello Banana, Jessica Hallb&auml;ck, Hop Louie, JoAnn Kneedler, Verbal Förlag, Ivar Martinsson, TONK, Michaela Peverelli, Varja Berg, JC, Mark IOH Andersson, John Beijer, Lotta &Aring;kre, Smol, Lilac Lady, Marcus Karbin, Pintamonoz med flera\!
 
 Allt s&auml;ljs p&aring; kv&auml;llen och en tar med hem direkt\!
 
