@@ -11,12 +11,13 @@
 
   {% if now >= endtime %}
   <br />
-  <h4>
-    <a href="{{ event.url }}" class="cta">{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}</a>
-  </h4>
+  
+  <a href="{{ event.url }}"><img src="{{ event.image }}" width="100%"/></a>
   <h4>{{ event.title }}</h4>
-  <br />
-  <hr />
+  <h4>
+      <a href="{{ event.url }}" class="cta">{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}</a>
+    </h4>
+
   <br />
 
 
