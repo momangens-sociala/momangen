@@ -114,20 +114,17 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   overflow-x: hidden;
-  background-color: #fff;
-
+  background: rgba(255, 255, 255, 0.1) url('/assets/img/bg.png');
 }
 .column {
   flex: 1 0 320px;
   margin-left:5px;
   margin-right: 5px;
 
-  background: linear-gradient(90deg, rgb(255, 255, 255), rgb(240, 248, 247), rgb(255, 255, 255), rgb(230, 241, 239), rgb(255, 255, 255));
   img {
     float: left;
     margin-right: 5px;
   }
-
 }
 #footer {
   width:100%;
