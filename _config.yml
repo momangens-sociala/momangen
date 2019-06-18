@@ -127,7 +127,24 @@ defaults:
           uploads_dir: "images/artists"
       _comments:
         name: Artistnamnet
-        blurb: Kort biografi
+        blurb_text: Kort biografi
+        nation: Var kommer artisten ifrån (gärna förkortning)
+        link: Länk till artistens hemsida
+        image: bild på artisten (om det finns ett ansikte, se till att det är i mitten av bilden)
+  - scope:
+    path: ""
+    type: "momangers"
+    values:
+      _options:
+        image: 
+          width: 150
+          height: 150
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+          uploads_dir: "images/momangers"
+      _comments:
+        namn: Artistnamnet
+        blurb_text: Kort biografi
         nation: Var kommer artisten ifrån (gärna förkortning)
         link: Länk till artistens hemsida
         image: bild på artisten (om det finns ett ansikte, se till att det är i mitten av bilden)

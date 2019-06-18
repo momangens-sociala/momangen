@@ -18,7 +18,7 @@ layout: default
 </div>
 {% for artist in site.momangers %}
 <div class="column">
-  <img src="{{ artist.image }}" />
+  <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
   <h4>{{ artist.namn }}</h4>
   <p class="blurb">{{ artist.blurb_text }}<br />
     {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">Mer info
