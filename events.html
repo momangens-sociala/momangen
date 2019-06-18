@@ -66,6 +66,7 @@ image: /uploads/stickerwall.jpg
   {% if now >= endtime %}
 
   <div class="column2">
+      <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
       <a href="{{ event.url }}"><div class="flyer" style="background-image:url('{{ event.image }}')"></div></a>
     <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
       <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
