@@ -16,10 +16,8 @@ slutet_salskap: false
 published: true
 ---
 
-Det som &auml;r sant idag &auml;r inte alltid sant imorgon. Vilka förest&auml;llningar har styrt v&aring;rt t&auml;nkande förr och vad &auml;r vi tv&auml;rs&auml;kra p&aring; i v&aring;r samtid?
-
 Benny Nilsson guidar genom d&aring;tida och nutida sanningar inom religion, samh&auml;lle och naturvetenskap i den tankev&auml;ckande ess&auml;n V&auml;rlden &auml;r full av inbillade sanningar.
 
 Kom och fira boksl&auml;ppet med oss\! Samtal ca 40 min följt av mingel och bubbel.
 
-**Fri entr&eacute;, alla &auml;r v&auml;lkomna\! **
+\*\*Fri entr&eacute;, alla &auml;r v&auml;lkomna\! \*\*

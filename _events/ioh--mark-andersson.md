@@ -16,8 +16,6 @@ slutet_salskap: false
 published: true
 ---
 
-IOH / Mark Andersson &auml;r tillbaka för andra g&aring;ngen sedan 2013 med en solo utst&auml;llning p&aring; Galleri Momangen d&auml;r han presenterar nya skapelser.
-
 Mark Andersson startade 2012 med en serie sj&auml;lvportr&auml;tt av sig sj&auml;lv som ett svart f&aring;r\! en f&aring;rskalle, nu 1000 tals f&aring;r senare s&aring; finns den fortfarande d&auml;r, fast kanske bara som en skymtning, Motivet görs om och om igen, i en process av att f&auml;rg och vatten spr&auml;ngs, sl&auml;ngs och h&auml;lls över dukarna skapas dom.
 
 En h&auml;ndelse som ibland blir ett f&aring;r och ibland ett minne\!Men alltid en upprepning av det första f&aring;ret\!Jag sj&auml;lv.
@@ -28,7 +26,7 @@ Vernissage: Fredagen den 24e november 18-21
 
 Galleri Momangen @ Kocksgatan 23
 
-\---
+\-–
 
 Contact: info@iohart.com<br>Tel: 0707192421<br>For more pictures and info go to: [www.iohart.com](http://www.iohart.com/){: target="_blank"}[facebook.com/IOHART](https://www.facebook.com/IOHART/){: target="_blank"}[instagram.com/ioh\_mark\_andersson](https://instagram.com/ioh_mark_andersson){: target="_blank"}
 
