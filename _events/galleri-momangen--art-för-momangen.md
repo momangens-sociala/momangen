@@ -7,7 +7,7 @@ description: >-
   Vi har egen ateljé och verkstad för våra medlemmar. Vi deltar varje år i
   Stockholms kulturnatt och med evenemanget Art for aid har vi gett stöd till
   barn i krigsdrabbade Kobane och gatubarn i Stockholm.
-date: 2017-09-15 00:00:00 +0200
+date: 2017-10-15 00:00:00 +0200
 event_data:
   start_datetime: 2017-11-27 18:00:00 +0100
   end_datetime: 2017-11-27 22:00:00 +0100
