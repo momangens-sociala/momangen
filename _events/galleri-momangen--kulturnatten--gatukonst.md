@@ -27,6 +27,6 @@ Kom g&auml;rna förbi och prova p&aring; att m&aring;la p&aring; v&aring;r egna 
 
 Öppettider: kl.18.00-24.00
 
-19\.00-19.15<br>Introduktion av konstn&auml;ren Jessica Hallb&auml;ck som visar hur man m&aring;lar med sprayburkar. S&aring;klart &auml;r det fritt fram för alla att prova att m&aring;la p&aring; v&aring;r v&auml;gg under hela kv&auml;llen\!<br>20\.30–21.15<br>Förel&auml;sning och fr&aring;gestund om utvecklingen efter avskaffandet av nolltoleransen med Dr Graffiti, författaren och filosofie doktor i konstvetenskap Jakob Kimvall och Thomas Krajewski fr&aring;n Snös&auml;tras graffitiomr&aring;de. Detta sker i samarbete med Studiefr&auml;mjandet.
+**19\.00-19.15**<br>Introduktion av konstn&auml;ren Jessica Hallb&auml;ck som visar hur man m&aring;lar med sprayburkar. S&aring;klart &auml;r det fritt fram för alla att prova att m&aring;la p&aring; v&aring;r v&auml;gg under hela kv&auml;llen\!<br>**20\.30–21.15**<br>Förel&auml;sning och fr&aring;gestund om utvecklingen efter avskaffandet av nolltoleransen med Dr Graffiti, författaren och filosofie doktor i konstvetenskap Jakob Kimvall och Thomas Krajewski fr&aring;n Snös&auml;tras graffitiomr&aring;de. Detta sker i samarbete med Studiefr&auml;mjandet.
 
 Varmt v&auml;lkomna\!
