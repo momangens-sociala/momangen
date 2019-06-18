@@ -1,6 +1,6 @@
 ---
 namn: Kulturkristian
-image: /uploads/kulturkristian.jpeg
+image: /images/momangers/kulturkristian.jpg
 blurb_text:
 link:
 ---
