@@ -1,6 +1,6 @@
 ---
 namn: Johanna
-image: /uploads/johanna.jpeg
+image: /images/momangers/johanna.jpg
 blurb_text:
 link:
 ---
