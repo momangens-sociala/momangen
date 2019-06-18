@@ -10,7 +10,6 @@
 {%- endcapture %}
 
 {% if now >= endtime %}
-
 <div>
   <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
     <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
@@ -18,9 +17,7 @@
 
   <br />
 </div>
-
-
 {% endif %}
 {% endfor %}
-<a href="/events/" class="cta">Mer Events</a>
+<a href="/events/" class="cta" alt="Events">Mer Events</a>
 <br /><br />
