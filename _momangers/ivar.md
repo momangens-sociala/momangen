@@ -1,6 +1,6 @@
 ---
 namn: Ivar
-image: /uploads/ivar.jpeg
+image: /images/momangers/ivar.jpg
 blurb_text:
 link:
 ---
