@@ -1,6 +1,6 @@
 ---
 namn: Anette
-image: /uploads/anette.jpeg
+image: /images/momangers/anette.jpg
 blurb_text:
 link:
 ---
