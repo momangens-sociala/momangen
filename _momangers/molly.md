@@ -1,6 +1,6 @@
 ---
 namn: Molly
-image: https://source.unsplash.com/collection/139386/150x150?a=.jpg
+image: /uploads/molly.jpeg
 blurb_text:
 link:
 ---
