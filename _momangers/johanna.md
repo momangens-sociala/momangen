@@ -1,6 +1,6 @@
 ---
 namn: Johanna
-image: https://source.unsplash.com/collection/139386/150x150?a=.jpg
+image: /uploads/johanna.jpeg
 blurb_text:
 link:
 ---
