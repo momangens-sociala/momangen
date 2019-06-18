@@ -1,6 +1,6 @@
 ---
 namn: Set
-image: /uploads/set.jpeg
+image: /images/momangers/set.jpg
 blurb_text:
 link:
 ---
