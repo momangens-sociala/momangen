@@ -11,10 +11,11 @@ layout: default
     Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan
       {{ page.event_data.end_datetime | date: "%R"}}</strong><br />
   </div>
-  <br />
-  <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
+  
   <p>{{ page.description }}</p>
   {{ content }}
+  
+  <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
 </div>
 {% include featured-artists.html %}
 {% if page.slutet_salskap == true %}
