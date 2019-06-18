@@ -132,8 +132,8 @@ defaults:
         link: Länk till artistens hemsida
         image: bild på artisten (om det finns ett ansikte, se till att det är i mitten av bilden)
   - scope:
-    path: ""
-    type: "momangers"
+      path: ""
+      type: "momangers"
     values:
       _options:
         image: 
