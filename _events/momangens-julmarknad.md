@@ -9,6 +9,7 @@ image: /images/events/julmarknad2018.jpg
 link:
 category: bildkonst
 deltagande_artists:
+  - va
 slutet_salskap: true
 published: true
 ---

@@ -25,6 +25,7 @@ image: /images/events/martin-nodell.jpg
 link:
 category: bildkonst
 deltagande_artists:
+  - martinnordell
 slutet_salskap: true
 published: true
 ---
