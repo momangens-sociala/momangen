@@ -3,7 +3,7 @@
 {{ site.time | date: '%s' }}
 {%- endcapture %}
 {% assign events = site.events | reverse %}
-{% for event in events | limit: 7 %}
+{% for event in events | limit: 10 %}
 
 {% capture endtime -%}
 {{ event.event_data.end_datetime | date: '%s' }}
@@ -15,9 +15,9 @@
     <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
   </p>
 
-  <br />
 </div>
 {% endif %}
 {% endfor %}
+<br />
 <a href="/events/" class="cta" alt="Events">Mer Events</a>
 <br /><br />
