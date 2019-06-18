@@ -12,7 +12,7 @@ link:
 category: bokförläggning
 deltagande_artists:
   - zacoyeah
-slutet_salskap: true
+slutet_salskap: false
 published: true
 ---
 
