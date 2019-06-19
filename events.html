@@ -8,11 +8,11 @@ image: /uploads/stickerwall.jpg
   <h3>Kommande event</h3>
   
   {% capture now -%}{{ site.time | date: '%s' }}{%- endcapture %}   {% for event in site.events %}   {% capture endtime -%}   {{ event.event_data.end_datetime | date: '%s' }}   {%- endcapture %}   {% if now <= endtime %}
-  <div class="column">
+  <div class="column" style="margin-left: 0;">
   <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
   <h2><a href="{{ event.url }}" class="nodecoration" style="border:none;">{{ event.title }}</a></h2>
-  <img src="{{ event.image }}" width="100%" />
-  <p>    {% assign d = event.event_data.start_datetime | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a     {% else %}{{ d }}:e{% endcase %}     {% assign m = event.event_data.start_datetime | date: "%-m" %}     {% case m %}     {% when '1' %}Januari     {% when '2' %}Februari     {% when '3' %}Mars    {% when '4' %}April     {% when '5' %}Maj     {% when '6' %}Juni     {% when '7' %}Juli     {% when '8' %}Augusti     {% when '9' %}September     {% when '10' %}Oktober     {% when '11' %}November     {% when '12' %}December     {% endcase %}     {{ event.event_data.start_datetime | date: "%Y" }}     kl. {{ event.event_data.start_datetime | date: "%R"}}<br />
+  <a href="{{ site.baseurl }}{{ event.url }}"><img src="{{ event.image }}" width="100%" style="margin-bottom: 15px;" /></a>
+  <p><strong>{% assign d = event.event_data.start_datetime | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a     {% else %}{{ d }}:e{% endcase %}     {% assign m = event.event_data.start_datetime | date: "%-m" %}     {% case m %}     {% when '1' %}Januari     {% when '2' %}Februari     {% when '3' %}Mars    {% when '4' %}April     {% when '5' %}Maj     {% when '6' %}Juni     {% when '7' %}Juli     {% when '8' %}Augusti     {% when '9' %}September     {% when '10' %}Oktober     {% when '11' %}November     {% when '12' %}December     {% endcase %}     {{ event.event_data.start_datetime | date: "%Y" }}     kl. {{ event.event_data.start_datetime | date: "%R"}}</strong><br />
     Typ av konst: {{ event.category }}</p>
   <h3>{{ event.description | truncatewords: 10 }}</h3>
   <a href="{{ event.url }}" class="cta">Läs mer</a><br /><br /> </div> {% endif %}  {% endfor %}
