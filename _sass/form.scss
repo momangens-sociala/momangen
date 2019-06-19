@@ -20,7 +20,8 @@ input[type=text], input[type=email], textarea, select {
 
 
 input[type=submit] {
-  width: 200px;
+  font-size: 1em;
+
   background: linear-gradient(242deg, #829e99, #93fce7);
   background-size: 400% 400%;
   
@@ -50,15 +51,15 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  -ms-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 
 input[type=submit]:hover {
-  background-color: rgb(84, 241, 210);
+  color: #fff;
 
 }
 /* CSS Created by CSS CHECKBOX */
@@ -93,7 +94,7 @@ label {
     line-height:15px;
     background-repeat:no-repeat;
     background-position: 0 0;
-    font-size:15px;
+    font-size: 1em;
     vertical-align:middle;
     cursor:pointer;
   }
@@ -116,7 +117,7 @@ label {
     line-height:20px;
     background-repeat:no-repeat;
     background-position: 0 0;
-    font-size:15px;
+    font-size: 1em;
     vertical-align:middle;
       cursor:pointer;
   }
