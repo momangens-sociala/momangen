@@ -10,6 +10,7 @@ link:
 category: ljudkonst
 deltagande_artists:
   - perseid
+  - nimrod
 slutet_salskap: true
 published: true
 ---
