@@ -203,7 +203,11 @@ canvas {
   display: flex;
   flex-wrap: wrap;
   background-color: rgba(201, 246, 236, 0.9);
+  p {
+    margin-left: 15px;
+  }
 }
+
 
 .date {
   flex: 0 0 100%;
@@ -263,14 +267,14 @@ a.cta{
   border-radius: 4px;
   cursor: pointer;
   font-family: avantB, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-transition: background-color 0.2s linear;
-  -moz-transition: background-color 0.2s linear;
-  -ms-transition: background-color 0.2s linear;
-  -o-transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear;
+  -ms-transition: color 0.2s linear;
+  -o-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 a.cta:hover {
-  background-color: #54f1d2;
+  color: #fff;
 }
 .square-image {
   width: 150px;
