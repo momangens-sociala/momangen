@@ -39,7 +39,7 @@ h1{
   text-transform: uppercase;
 }
 h2{
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1em;
   text-transform: uppercase;
 
@@ -70,7 +70,7 @@ a:active {
   color: rgb(165, 202, 195);
 }
 /*
- * blend4web
+ * Banner/Hero
  */
 
 #banner {
@@ -85,7 +85,7 @@ a:active {
     flex: 1 1 auto;
     margin-left:5px;
     margin-right: 5px;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     padding: 0;
   }
   img {
@@ -100,6 +100,47 @@ a:active {
   .nodecoration {
     border:none;
   }
+}
+
+#poster {
+
+  width: 90vw;
+  margin-right: auto !important;
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    flex: 1 1 300px;
+  }  
+  a {
+    padding: 0;
+  }
+
+}
+
+#poster img {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  -moz-border-radius-topright: 9px;
+  -moz-border-radius-bottomright: 9px;
+   -webkit-border-top-right-radius: 9px;
+   -webkit-border-bottom-right-radius: 9px;
+  float: left;
+  padding-right: 5px;
+  width: 100%;
+  min-width: 200px;
+
+}
+
+canvas {
+  overflow-x: hidden;
+  position: fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index: -3;
 }
 
  
@@ -126,11 +167,11 @@ a:active {
 
 }
 .column {
-  
+  padding-bottom: 45px;
   flex: 1 0 320px;
-  margin-left:5px;
-  margin-right: 5px;
+  margin: 0px 15px 30px 15px;
   z-index: 10;
+  border-bottom: 1px solid rgb(165, 202, 195);
   img {
     float: left;
     margin-right: 5px;
@@ -152,13 +193,54 @@ a:active {
   margin-left: 5px;
 }
 .highlight {
-  background-image: url('/images/tile.png');
+  background: linear-gradient(242deg, #829e99, #93fce7);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
 }
 a.cta{
-  background-color: rgb(165, 202, 195);
+  background: linear-gradient(242deg, #829e99, #93fce7);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
   color: black;
   padding: 14px 20px;
-  margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -170,7 +252,7 @@ a.cta{
   transition: background-color 0.2s linear;
 }
 a.cta:hover {
-  background-color: rgb(84, 241, 210);
+  background-color: #54f1d2;
 }
 .square-image {
   width: 150px;
@@ -205,13 +287,13 @@ a.cta:hover {
   flex-wrap: wrap;
   .column2 {  
     flex: 1 0 250px;
-    margin-left:5px;
-    margin-right: 5px;
+    margin: 0 5px 30px 5px;
     z-index: 10;
-    img {
-      float: left;
-      margin-right: 5px;
-      border-radius: 3px;
-    }
+    border-bottom: 1px solid rgb(165, 202, 195);
+
   }
+}
+#pastevents {
+  margin: 0px 0px 30px 0px;
+  border-bottom: 1px solid rgb(165, 202, 195);
 }

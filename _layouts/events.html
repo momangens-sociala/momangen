@@ -10,23 +10,16 @@ layout: default
       {{ page.event_data.start_datetime | date: "%R"}}</strong><br />
     Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan
       {{ page.event_data.end_datetime | date: "%R"}}</strong><br />
+    <p><strong>{{ page.description }}</strong></p>
   </div>
-  
-  <p><strong>{{ page.description }}</strong></p>
-  {{ content }}
-  
+{{ content }}
   <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
-</div>
-{% include featured-artists.html %}
-{% if page.slutet_salskap == true %}
+
+</div>{% include featured-artists.html %}{% if page.slutet_salskap == true %}
+<div class="column">{% if page.slutet_salskap == true %}
+  <h2 style="color: #b62a33;">OBS! Du måste vara stödmedlem!</h2>{% endif %} {% include contact.html %}
+</div>{% endif %}
 <div class="column">
-  {% if page.slutet_salskap == true %}
-  <h2 style="color: #b62a33;">OBS! Du måste vara stödmedlem!</h2>
-  {% endif %}
-  {% include contact.html %}
-</div>
-{% endif %}
-<div class="column">
-  {% include hittahit.html %}
+{% include hittahit.html %}
 </div>
 <!-- END events.html -->

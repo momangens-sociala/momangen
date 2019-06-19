@@ -1,24 +1,9 @@
 <h3>Förflutna events</h3>
-
-{% capture now -%}
-{{ site.time | date: '%s' }}
-{%- endcapture %}
-{% assign events = site.events | reverse %}
-{% for event in events | limit: 8 %}
-
-{% capture endtime -%}
-{{ event.event_data.end_datetime | date: '%s' }}
-{%- endcapture %}
-
-{% if now >= endtime %}
-<div>
+{% capture now -%} {{ site.time | date: '%s' }} {%- endcapture %} {% assign events = site.events | reverse %} {% for event in events | limit: 8 %} {% capture endtime -%} {{ event.event_data.end_datetime | date: '%s' }} {%- endcapture %} {% if now >= endtime %}
+<div id="pastevents" {% if forloop.last == true %}style="border:none"{% endif %}>
   <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
     <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
   </p>
-<hr />
-</div>
-{% endif %}
-{% endfor %}
-<br />
+</div> {% endif %} {% endfor %}
+
 <a href="/events/" class="cta" alt="Events">Mer Events</a>
-<br /><br />

@@ -21,7 +21,28 @@ input[type=text], input[type=email], textarea, select {
 
 input[type=submit] {
   width: 200px;
-  background-color: rgb(165, 202, 195);
+  background: linear-gradient(242deg, #829e99, #93fce7);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
   color: black;
   padding: 14px 20px;
   margin: 8px 0;
