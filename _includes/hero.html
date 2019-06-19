@@ -1,8 +1,8 @@
 <!-- BEGIN hero.html -->
-<div id="banner" style={% if page.url == "/" %}"height:100%"{% else %}"height:60%; background-image:url('{{ page.image }}');background-size:cover;background-position:center;"{% endif %}>
+<div id="banner" style={% if page.url == "/" %}"height:100%"{% else %}"height:60%;"{% endif %}>
 
   <div>
-    <a href="{{ site.baseurl }}/" class="nodecoration"><img
+    <a href="{{ site.baseurl }}/" class="nodecoration"><img id="logo"
         src="{{ site.baseurl }}/assets/img/logo%20galleri%20momangen.svg" alt="{{ site.title }}" title="{{ site.title }}" /></a>
     {% if page.url == "/" %}
     <div id="poster">
@@ -21,7 +21,11 @@
       {% break %}       {% endif %}       {% endfor %}
       <!-- end Up next-->
     </div>
-    {% else %}{% endif %}
+    {% else %}
+    <div id="flyer" style="background-image: url({{ page.image }})"></div>
+    {% endif %}
+
   </div>
+  <div id="decoration"></div>
 </div>
 <!-- END hero.html -->
