@@ -28,6 +28,8 @@ Galleri Momangen @ Kocksgatan 23
 
 \-–
 
-Contact: info@iohart.com<br>Tel: 0707192421<br>For more pictures and info go to: [www.iohart.com](http://www.iohart.com/){: target="_blank"}[facebook.com/IOHART](https://www.facebook.com/IOHART/){: target="_blank"}[instagram.com/ioh\_mark\_andersson](https://instagram.com/ioh_mark_andersson){: target="_blank"}
+Contact: info@iohart.com<br>Tel: 0707192421<br>For more pictures and info go to:
 
-Detta event görs i samarbete med Studiefr&auml;mjandet [www.studieframjandet.se](http://www.studieframjandet.se/){: target="_blank"}
+[www.iohart.com](http://www.iohart.com/){: target="_blank"}<br>[facebook.com/IOHART](https://www.facebook.com/IOHART)<br>[instagram.com/ioh\_mark\_andersson](https://instagram.com/ioh_mark_andersson){: target="_blank"}
+
+Detta event görs i samarbete med Studiefr&auml;mjandet<br>[www.studieframjandet.se](http://www.studieframjandet.se/){: target="_blank"}
