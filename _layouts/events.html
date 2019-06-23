@@ -13,7 +13,7 @@ layout: default
     <p><strong>{{ page.description }}</strong></p>
   </div>
 {{ content }}
-  <img src="{{ site.baseurl}}{{ page.image }}" width="100%" />
+  <img src="{{ site.baseurl}}{{ page.image }}" width="100%" alt="Event flyer för: {{ page.title }}" title="Event flyer för: {{ page.title }}" />
 
 </div>{% include featured-artists.html %}{% if page.slutet_salskap == true %}
 <div class="column">{% if page.slutet_salskap == true %}
