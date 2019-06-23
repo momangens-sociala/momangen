@@ -22,4 +22,4 @@ Hans arbete &auml;r abstrakt och expressivt, f&auml;rg och form &auml;r framtr&a
 
 Martin har sedan 90-talet m&aring;lat graffiti och tar med sig energin och i m&aring;nga fall formatet d&auml;rifr&aring;n - in i atelj&eacute;n.
 
-[https://www.instagram.com/martin\_nordell](https://www.instagram.com/martin_nordell)
+[instagram.com/martin\_nordell](https://www.instagram.com/martin_nordell)
