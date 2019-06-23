@@ -185,7 +185,7 @@ canvas {
 }
 .column {
   padding-bottom: 45px;
-  flex: 1 0 320px;
+  flex: 1 1 300px;
   margin: 0px 15px 30px 15px;
   z-index: 10;
   border-bottom: 1px solid rgb(165, 202, 195);
@@ -237,6 +237,9 @@ canvas {
       100%{background-position:0% 73%}
   }
   margin-bottom: 30px;
+  h1 {
+    font-size: 1.6em;
+  }
 }
 a.cta{
   background: linear-gradient(242deg, #829e99, #93fce7);
@@ -308,7 +311,7 @@ a.cta:hover {
   display: flex;
   flex-wrap: wrap;
   .column2 {  
-    flex: 1 0 250px;
+    flex: 1 1 250px;
     margin: 0 5px 30px 5px;
     z-index: 10;
     border-bottom: 1px solid rgb(165, 202, 195);
