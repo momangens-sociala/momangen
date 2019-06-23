@@ -3,30 +3,35 @@
   <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
     <div>
       <h3>Bli stödmedlem</h3>
-      
-      <input type="text" name="_gotcha" style="display: none;" />
       <input type="hidden" name="_to" value="{{ site.email }}" /><br />
+      <input type="text" name="_gotcha" style="display: none;" />
+      
     </div>
     <div>
+        <label for="name">Namn:</label><br />
       <input type="text" name="name" id="name" placeholder="Namn" class="contact" />
-      <label for="name" style="display: none;">Name</label><br />
+      
     </div>
     <div>
+        <label for="email">E-post Address:</label><br />
       <input type="email" name="email" id="email" placeholder="E-post" required class="contact" />
-      <label for="email" style="display: none;">Email Address</label><br />
+     
     </div>
     <div>      
+        <label for="persnr">Personnummer:</label><br />
       <input type="text" name="persnr" id="persnr" placeholder="Personnummer" class="contact" />
-      <label for="persnr" style="display: none;">Persnr.</label><br />
+     
     </div>
     <div>      
+        <label for="postnummer">Postnummer:</label><br />
       <input type="text" name="postnummer" id="postnummer" placeholder="Postnummer" class="contact" />
-      <label for="postnummer" style="display: none;">Postnummer</label><br />
+     
     </div>
-    <div>      
+    <div>     
+        <label for="message">Dikt:</label><br /> 
       <textarea name="message" id="message" placeholder="Skriv en dikt" required
-        class="contact textspace" rows="10"></textarea>
-      <label for="message" style="display: none;">Message</label><br />
+        class="contact textspace" rows="4"></textarea>
+     
     </div>
     <div>
       <input type="checkbox" name="consent" id="consent" required class="css-checkbox lrg klaus" /><label for="consent"
