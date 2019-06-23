@@ -18,4 +18,4 @@ published: true
 
 Han har tidigare skildrat samma tema men s&auml;ger nu att det har blivit lite aggressivare d&aring; moder jord och djuren har f&aring;tt nog.
 
-[https://mike-ali.com](https://mike-ali.com/){: target="_blank"}<br>[https://instagram.com/mike\_ali](https://instagram.com/mike_ali)
+[mike-ali.com](https://mike-ali.com/){: target="_blank"}<br>[instagram.com/mike\_ali](https://instagram.com/mike_ali)
