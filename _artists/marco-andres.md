@@ -6,6 +6,6 @@ blurb_text: >-
   With snappy drums and a tight hi-hat it’s hard not find your self nodding your
   head or even dancing at times.
 nation:
-link: 'https://soundcloud.com/stockholmtrash/broken2014-19-04'
+link: 'https://soundcloud.com/stockholmtrash/sq-aw/s-HCENj'
 image: /images/artists/signal-2019-06-22-112930.jpg
 ---
