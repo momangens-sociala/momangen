@@ -15,4 +15,6 @@ slutet_salskap: true
 published: true
 ---
 
-Plotten tjocknar. Vad &auml;r detta?
+En s&aring;n fredag d&aring; du hoppas v&auml;dret blir kasst s&aring; att dina kompisar inte tvekar en sekund för att ocks&aring; bli stödmedlemmar p&aring; Momangen och h&auml;nga med ner i&nbsp; Stockholmsunderjorden för en h&auml;rlig och överkomlig AW i Södermalms hj&auml;rta.&nbsp;
+
+Den h&auml;r g&aring;ngen bjuder vi p&aring; ett intimare format som du kommer f&aring; se n&auml;r du kommer.
