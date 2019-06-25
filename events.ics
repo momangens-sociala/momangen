@@ -21,8 +21,8 @@ RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
 END:STANDARD
 END:VTIMEZONE{% for event in site.events %}
 BEGIN:VEVENT
-CREATED:{{ event.date | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', 'Z' | replace: '+0100', 'Z' }}
-LAST-MODIFIED:{{ site.time | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', 'Z' | replace: '+0100', 'Z' }}
+CREATED:{{ event.date | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', 'Z' | replace: '+0100', 'Z' | replace: '+0000', 'Z' }}
+LAST-MODIFIED:{{ site.time | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', 'Z' | replace: '+0100', 'Z' | replace: '+0000', 'Z' }}
 DTSTAMP:20190625T144210Z
 UID:{{ site.url }}{{ event.url }}
 SUMMARY:{{ event.title }}
