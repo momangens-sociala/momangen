@@ -1,5 +1,5 @@
 ---
-name: Marco Rubilar
+name: Marco Andres
 blurb_text: >-
   Hailing from Stockholm, electronic music enthusiast MarcoAndres, spends his
   time both producing and digging in the vaults for groovy and punchy tunes.
