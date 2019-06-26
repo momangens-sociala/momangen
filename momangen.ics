@@ -10,11 +10,14 @@ DTSTAMP:20190625T144210Z
 UID:{{ site.url }}{{ event.url }}
 SUMMARY:{{ event.title }}
 ATTACH:{{ site.url }}{{ event.url }}
+URL:{{ site.url }}{{ event.url }}
 DTSTART;TZID=UTC:{{ event.event_data.start_datetime | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', '' | replace: '+0100', '' | replace: '+0000', '' }}
 DTEND;TZID=UTC:{{ event.event_data.end_datetime | date_to_xmlschema | remove: '-' | remove: ':' | replace: '+0200', '' | replace: '+0100', '' | replace: '+0000', '' }}
 TRANSP:OPAQUE
 LOCATION:{{ site.adress }}
-DESCRIPTION:{{ event.content | strip_newlines | strip_html }}
+CATEGORIES:{{ event.category }}
+GEO:+59.314134;-18.078281
+DESCRIPTION:{{ event.content | strip_newlines | strip_html | replace: ',', '\,' }}
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER;VALUE=DURATION:-PT7H
