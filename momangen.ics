@@ -17,7 +17,7 @@ TRANSP:OPAQUE
 LOCATION:{{ site.adress }}
 CATEGORIES:{{ event.category }}
 GEO:+59.314134;-18.078281
-DESCRIPTION:{{ event.content | strip_newlines | strip_html | replace: ',', '\,' }}
+DESCRIPTION:{{ event.content | strip_newlines | strip_html | replace: ',', '\,' }} - {{ site.url }}{{ event.url }}
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER;VALUE=DURATION:-PT7H
