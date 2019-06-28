@@ -1,0 +1,33 @@
+---
+title: Avprenumerera
+description: >-
+  Här kan avsluta din prenumeration på nyheter från oss.
+image: /siteicon.png
+layout: default
+sitemap: false
+---
+<div class="column">
+    <h2>Avprenumerera</h2>
+    <p>{{ page.description }}</p>
+  <form action="{{ site.baseurl }}/avpren-success/" method="post" class="contact-form">
+    <div>
+      <input type="hidden" name="_to" value="{{ site.email }}" /><br />
+      <input type="text" name="_gotcha" style="display: none;" />
+      
+    </div>
+   
+    <div>
+        <label for="email">Skriv in emailen du gav oss i fältet nedan:</label><br />
+      <input type="email" name="email" id="email" placeholder="E-post adressen du vill avprenumerera" required class="contact" />
+     
+    </div>
+    
+    <div>
+      <input type="submit" value="Avsluta Prenumeration" />
+    </div>
+  </form>
+  </div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+
