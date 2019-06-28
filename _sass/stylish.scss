@@ -241,6 +241,30 @@ canvas {
     font-size: 1.6em;
   }
 }
+.blink {
+  background: linear-gradient(242deg, #f89595, #6ffce0);
+  background-size: 400% 400%;
+  
+  -webkit-animation: AnimationName 1s ease infinite;
+  -moz-animation: AnimationName 1s ease infinite;
+  animation: AnimationName 1s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 73%}
+      50%{background-position:100% 28%}
+      100%{background-position:0% 73%}
+  }
+}
 a.cta{
   background: linear-gradient(242deg, #829e99, #93fce7);
   background-size: 400% 400%;
@@ -298,7 +322,7 @@ a.cta:hover {
   text-align: center;
   line-height: 18px;
   opacity: 1;
-  background: rgba(255, 255, 255, 0.5) url('/assets/img/bg.png');
+
 }
 .flyer {
   background-size: cover;

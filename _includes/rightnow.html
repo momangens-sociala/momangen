@@ -1,4 +1,4 @@
-<div id="rightnow">
+<div id="rightnow"{% if site.data.open.open == true %} class="blink"{% else %} style="background: rgba(255, 255, 255, 0.5) url('/assets/img/bg.png');" {% endif %}>
   {% if site.data.open.open == true %}
   <br /><br />
   <p>Just Nu:
