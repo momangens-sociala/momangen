@@ -1,6 +1,6 @@
 ---
 title: 'Momangens Sociala Presenterar: Momagiskt Vol.III'
-description: Tredje kapitlet av Momagiskt!
+description: Tredje kapitlet av Momagiskt
 date: 2019-06-19 00:00:00 +0200
 event_data:
   start_datetime: 2019-07-05 17:00:00 +0200
