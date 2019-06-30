@@ -51,6 +51,7 @@ collections:
   events:
     output: true
     permalink: "/events/:title/"
+    future: false
   artists:
     permalink: "/artists/:title/"
     _hide_content: true
