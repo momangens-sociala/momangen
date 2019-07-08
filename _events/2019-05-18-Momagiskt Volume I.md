@@ -14,7 +14,7 @@ deltagande_artists:
   - max_park
   - knivtid
   - nimrod
-slutet_salskap: true
+slutet_salskap: false
 published: true
 ---
 
