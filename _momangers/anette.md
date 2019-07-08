@@ -3,5 +3,5 @@ namn: Anette
 image: /images/momangers/50167492-10218177083246349-3081317513628221440-n.jpg
 blurb_text:
 link:
-mopp_date: 2019-09-02 00:00:00 +0200
+mopp_vecka: 36
 ---

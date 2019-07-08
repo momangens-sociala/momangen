@@ -1,0 +1,19 @@
+---
+title: Moppschema
+description: Vilken vecka städar du
+layout: default
+sitemap: false
+---
+<div style="display:flex; flex-wrap: wrap;">
+{% assign momangers = site.momangers | sort: 'mopp_vecka' %}
+{% for artist in momangers %}
+<div class="column">
+    <a href="cloudcannon:collections/{{ artist.path }}" class="editor-link cms-editor-link">Redigera Medlem</a>
+  <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
+  <p><strong>{{ artist.namn }}</strong></p>
+  <p>Städvecka: {{ artist.mopp_vecka }}</p>
+  <p class="blurb">{{ artist.blurb_text }}<br />
+    {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">Mer info
+      här</a>{% endif %}</p>
+</div>
+{% endfor %}

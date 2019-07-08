@@ -3,5 +3,5 @@ namn: Magnus
 image: /images/momangers/magnus.jpg
 blurb_text:
 link:
-mopp_date:
+mopp_vecka: 42
 ---
