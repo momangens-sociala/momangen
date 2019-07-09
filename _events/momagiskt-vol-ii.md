@@ -11,7 +11,7 @@ category: ljudkonst
 deltagande_artists:
   - marco-andres
   - nimrod
-slutet_salskap: true
+slutet_salskap: false
 published: true
 ---
 
