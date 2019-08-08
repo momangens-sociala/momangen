@@ -3,7 +3,7 @@ title: '-Ur Funktion- Vernissage'
 description: >-
   SAVE THE DATE! Fredag 13:e september öppnar utställningen UR FUNKTION på
   Galleri Momangen.
-date: 2019-08-06 08:00:00 +0200
+date: 2019-08-08 08:00:00 +0200
 event_data:
   start_datetime: 2019-09-13 18:00:00 +0200
   end_datetime: 2019-09-15 18:00:00 +0200
