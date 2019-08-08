@@ -1,12 +1,17 @@
-<h3>Förflutna events</h3>
 {% assign now = site.time %}
-{% assign upcoming = site.events | sort: 'event_data.start_datetime' | reverse %}
-{% for event in upcoming limit: 10 %}   
-{% if event.event_data.end_datetime <= now %}  
+{% assign upcoming = site.events | sort: 'event_data.start_datetime' %}
+{% for event in upcoming %}   
+{% if event.event_data.end_datetime >= now %} 
+<div class="column">
+<h3>Kommande Events</h3>
+{% for event in upcoming %}   
+{% if event.event_data.end_datetime >= now %}  
 <div class="pastevents" {% if forloop.last == true %}style="border:none"{% endif %}>
   <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
     <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
   </p>
 </div> {% endif %} {% endfor %}
-
 <a href="/events/" class="cta" alt="Events">Mer Events</a>
+</div>
+{% break %}
+{% endif %} {% endfor %}

@@ -3,7 +3,7 @@ title: Releasefest för Kloaksajterna i Stockholm
 description: >-
   Kom och fira utgivningen av  Kolbjörn Guwallius roman oss på momangen i
   Stockholm!
-date: 2019-08-08 07:00:00 +0200
+date: 2019-08-08 10:00:00 +0200
 event_data:
   start_datetime: 2019-08-30 19:00:00 +0200
   end_datetime: 2019-08-30 22:00:00 +0200
