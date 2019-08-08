@@ -6,12 +6,25 @@
 <h3>Kommande Events</h3>
 {% for event in upcoming %}   
 {% if event.event_data.end_datetime >= now %}  
-<div class="pastevents" {% if forloop.last == true %}style="border:none"{% endif %}>
-  <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
-    <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
-  </p>
-</div> {% endif %} {% endfor %}
-<a href="/events/" class="cta" alt="Events">Mer Events</a>
+<div class="column2">
+    <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+    <h2><a href="{{ event.url }}" class="nodecoration" style="border:none;">{{ event.title }}</a></h2>
+    <a href="{{ site.baseurl }}{{ event.url }}" title="Event: {{ event.title }}" alt="Event: {{ event.title }}"
+      style="border:none">
+      <img src="{{ event.image }}" style="margin-bottom: 30px;" title="Event: {{ event.title }}"
+        alt="Event: {{ event.title }}" />
+    </a>
+    <p><strong>{% assign d = event.event_data.start_datetime | date: "%-d"  %}{% case d %}{% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a
+        {% else %}{{ d }}:e{% endcase %} {% assign m = event.event_data.start_datetime | date: "%-m" %} {% case m %}
+        {% when '1' %}Januari {% when '2' %}Februari {% when '3' %}Mars {% when '4' %}April {% when '5' %}Maj
+        {% when '6' %}Juni {% when '7' %}Juli {% when '8' %}Augusti {% when '9' %}September {% when '10' %}Oktober
+        {% when '11' %}November {% when '12' %}December {% endcase %}
+        {{ event.event_data.start_datetime | date: "%Y" }}
+        kl. {{ event.event_data.start_datetime | date: "%R"}}</strong><br />
+      Typ av konst: {{ event.category }}</p>
+    <h3 style="margin-bottom: 30px;">{{ event.description | truncatewords: 10 }}</h3>
+    <a href="{{ event.url }}" class="cta">Läs mer</a><br /><br />
+  </div> {% endif %} {% endfor %}
 </div>
 {% break %}
 {% endif %} {% endfor %}
