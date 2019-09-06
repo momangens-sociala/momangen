@@ -1,8 +1,8 @@
 ---
 title: '-Ur Funktion- Vernissage'
 description: >-
-  SAVE THE DATE! Fredag 13:e september öppnar utställningen UR FUNKTION på
-  Galleri Momangen.
+  Fredag  den 13:e september öppnar utställningen UR FUNKTION av Albin Limnell
+  på Galleri Momangen.
 date: 2019-08-08 08:00:00 +0200
 event_data:
   start_datetime: 2019-09-13 18:00:00 +0200
@@ -16,10 +16,14 @@ slutet_salskap: false
 published: true
 ---
 
+Fredag den trettonde blir det UR FUNKTION\!&nbsp;
+
+Med inspiration fr&aring;n 70-tals progg och modernistisk konstruktivism visar utst&auml;llningen en nutida revolution&auml;r konst som vill uppmana till att t&auml;nka och fundera p&aring; fr&aring;gor kring krig/fred, frihet och konsumtion. &Aring;terbruk &auml;r ett genomg&aring;ende tema i utst&auml;llningen.&nbsp;
+
+Tre verk &auml;r speciellt gjorda till förm&aring;n för den f&auml;ngslade journalisten Dawit Isaak. Kom till utst&auml;llningen för att buda p&aring; verken som auktioneras ut. &nbsp;<br>\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_&nbsp;<br>\-Ur funktion- &nbsp;<br>Obrukbar, trasig, defekt eller skadad? Alltid klagar n&aring;gon p&aring; n&aring;got. En funktion, ett system, ett objekt. Ibland kan funktionen &auml;ndras, systemet bytas ut och objektet &aring;teranv&auml;ndas. Oftast sl&auml;ngs objektet, funktionen förkortas medan systemet expanderar eller urholkas. &nbsp; &nbsp;&nbsp;<br>I v&aring;r tid ses ibland ***ordet*** som ofunktionellt varp&aring; ett ordbyte blir för&auml;ndringen. Systemet bakom hur ordet tolkas forts&auml;tter och d&auml;rför sker ingen egentlig för&auml;ndring. En lösning har aldrig varit p&aring; tal. Ska avfallet forts&auml;tta sopas under marken och flytta problemen till framtiden? &nbsp;&nbsp;
+
 V&auml;lkomna p&aring; vernissage fr&aring;n klockan 18:00.
 
-\- Mer info kommer snart-
-
-Fredag 13/9 Vernissage 18 -22<br>Lördag 14/9 öppet mellan 12-??<br>Söndag 15/9 öppet mellan 12-??
+Fredag 13/9 Vernissage 18 -22<br>Lördag 14/9 öppet mellan 12-16<br>Söndag 15/9 öppet mellan 12-16
 
 &nbsp;
