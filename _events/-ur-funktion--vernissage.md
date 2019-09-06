@@ -7,7 +7,7 @@ date: 2019-08-08 08:00:00 +0200
 event_data:
   start_datetime: 2019-09-13 18:00:00 +0200
   end_datetime: 2019-09-15 18:00:00 +0200
-image: /images/events/urfunktion.jpg
+image: /images/events/70508046-2403285699760638-7338010968779128832-o.jpg
 link: 'https://www.facebook.com/events/2391281261140144/'
 category: bildkonst
 deltagande_artists:
