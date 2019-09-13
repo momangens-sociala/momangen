@@ -35,7 +35,7 @@ layout: default
 </div>
 {% for artist in site.momangers %}
 <div class="column">
-    <a href="cloudcannon:collections/{{ artist.path }}" class="editor-link cms-editor-link">Redigera Medlem</a>
+    <a href="cloudcannon:collections/{{ artist.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Medlem</a>
   <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
   <p><strong>{{ artist.namn }}</strong></p>
   <p class="blurb">{{ artist.blurb_text }}<br />

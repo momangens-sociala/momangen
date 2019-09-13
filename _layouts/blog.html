@@ -4,7 +4,7 @@ layout: default
 <div class="column">
   <div style="padding:0 3px 3px 3px;border-radius: 3px;" class="highlight">
     <h1>{{ page.title }}</h1>
-    <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+    <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
     Eventet börjar: <strong>{{ page.event_data.start_datetime | date: "%Y-%m-%d"}} klockan
       {{ page.event_data.start_datetime | date: "%R"}}</strong><br />
     Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan

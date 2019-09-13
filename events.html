@@ -16,7 +16,7 @@ image: /uploads/stickerwall.jpg
 {% if event.event_data.end_datetime >= now %}  
 
     <div class="column2">
-      <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+      <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
       <h2><a href="{{ event.url }}" class="nodecoration" style="border:none;">{{ event.title }}</a></h2>
       <a href="{{ site.baseurl }}{{ event.url }}" title="Event: {{ event.title }}" alt="Event: {{ event.title }}"
         style="border:none">
@@ -44,7 +44,7 @@ image: /uploads/stickerwall.jpg
 {% for event in upcoming %}   
 {% if event.event_data.end_datetime <= now %}  
     <div class="column2">
-      <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+      <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
       <a href="{{ event.url }}" title="Event: {{ event.title }}" alt="Event: {{ event.title }}">
         <div class="flyer" style="background-image:url('{{ event.image }}')"></div>
       </a>

@@ -17,7 +17,7 @@
 
       <div>
         På gång:
-        <a href="cloudcannon:collections/{{ event.path }}" class="editor-link cms-editor-link">Redigera Event</a>
+        <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
         <h2><a href="{{ event.url }}" class="nodecoration">{{ event.title }}</a></h2>
         <p>
           {% assign d = event.event_data.start_datetime | date: "%-d"  %}
