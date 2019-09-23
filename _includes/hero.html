@@ -45,6 +45,13 @@
           <br /><strong>{{ event.description | truncatewords: 10 }}</strong></p>
         <p><a class="cta" href="{{ event.url }}" style="padding:10px;"> Läs mer </a></p>
       </div>
+      {% break %}
+      {% else %}
+      <div>
+      <h2>Bums, omedelbart, på Momangen!</h2>
+      <p><strong>Södra Stockholms bäst bevarade hemlighet</strong></p>
+      <p><a class="cta" href="mailto:galleri@momangen.se" style="padding:10px;">Kontakta Oss!</a></p>
+    </div>
       {% break %}  {% endif %}   {% endfor %}
       <!-- end Up next-->
     </div>
