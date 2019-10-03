@@ -10,7 +10,7 @@
       }}
   {%- endcapture %}
   {% if name == artist_name %}<br />
-  <div class="square-image" style="background-image: url('{{ artist.image }}');background-size: contain;"></div>
+  <div class="square-image" style="background-image: url('{{ artist.image }}');background-size: cover;"></div>
   <p><strong>{{ artist.name }}</p></strong>
   <p class="blurb">{{ artist.blurb_text }}<br />
     {% if artist.link != null %}
