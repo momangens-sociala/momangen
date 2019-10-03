@@ -11,6 +11,7 @@ image: /images/events/image-from-ios-2.jpg
 link:
 category: bildkonst
 deltagande_artists:
+  - forsbergs
 slutet_salskap: false
 published: true
 ---
