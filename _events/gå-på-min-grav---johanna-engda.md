@@ -10,7 +10,7 @@ link:
 category: bildkonst
 deltagande_artists:
   - johannaengdahl
-slutet_salskap: true
+slutet_salskap: false
 published: true
 ---
 
