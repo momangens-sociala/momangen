@@ -9,6 +9,7 @@ image: /images/events/image-from-ios-1-1.jpg
 link:
 category: bildkonst
 deltagande_artists:
+  - johannaengdahl
 slutet_salskap: true
 published: true
 ---
