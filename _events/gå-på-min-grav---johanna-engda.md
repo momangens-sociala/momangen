@@ -7,7 +7,7 @@ event_data:
   end_datetime: 2019-10-31 20:00:00 +0100
 image: /images/events/image-from-ios-1-1.jpg
 link:
-category: ljudkonst
+category: bildkonst
 deltagande_artists:
 slutet_salskap: true
 published: true
