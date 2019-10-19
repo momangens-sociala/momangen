@@ -1,6 +1,6 @@
 ---
 title: Gå på min grav - Johanna Engda
-description:
+description: Levande konstevent på Momangen.
 date: 2019-10-19 07:00:00 +0200
 event_data:
   start_datetime: 2019-10-31 18:00:00 +0100
