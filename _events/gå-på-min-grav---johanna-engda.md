@@ -9,7 +9,7 @@ description: >-
   Johanna kommer ursprungligen från Småland och arbetar bland annat med textil,
   fotografi och musik. Tidigare utställningar innefattar Ungdomshuset i
   Köpenhamn och North Bank Art Gallery i Vancouver (USA). Hon har även haft
-  fotografier publicerade i Close-up och Thrasher Magazine.
+  fotografier publicerade i Close-Up och Thrasher Magazine.
 date: 2019-10-19 07:00:00 +0200
 event_data:
   start_datetime: 2019-10-31 18:00:00 +0100
