@@ -15,7 +15,7 @@ event_data:
   start_datetime: 2019-10-31 18:00:00 +0100
   end_datetime: 2019-10-31 20:00:00 +0100
 image: /images/events/image-from-ios-1-1.jpg
-link:
+link: 'https://www.instagram.com/johanna_anakhana/'
 category: bildkonst
 deltagande_artists:
   - johannaengdahl
