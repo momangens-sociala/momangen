@@ -7,6 +7,7 @@ description: >-
   minnesstund och metamorfos.
 
 
+
   Johanna kommer ursprungligen från Småland och arbetar bland annat med textil,
   fotografi och musik. Tidigare utställningar innefattar Ungdomshuset i
   Köpenhamn och North Bank Art Gallery i Vancouver (USA). Hon har även haft
