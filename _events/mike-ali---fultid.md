@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2018-11-25 00:00:00 +0100
 image: /images/events/44390734-1965558893480212-1508174175397740544-o.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - mikeali
 slutet_salskap: false

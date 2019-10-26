@@ -7,7 +7,7 @@ event_data:
   end_datetime: 2018-12-16 17:00:00 +0100
 image: /images/events/julmarknad2018.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - va
 slutet_salskap: false

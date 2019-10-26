@@ -12,7 +12,7 @@ event_data:
   end_datetime: 2017-11-27 22:00:00 +0100
 image: /images/events/artformomangen.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - va
 slutet_salskap: false

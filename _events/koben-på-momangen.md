@@ -10,7 +10,7 @@ event_data:
   end_datetime: 2018-10-28 00:00:00 +0200
 image: /images/events/43052390-1944468012255967-5499417176819367936-o.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - koben
 slutet_salskap: false

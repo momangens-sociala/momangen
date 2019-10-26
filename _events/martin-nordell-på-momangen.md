@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2019-03-03 17:00:00 +0100
 image: /images/events/martin-nodell.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - martinnordell
 slutet_salskap: false

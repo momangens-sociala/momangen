@@ -7,7 +7,7 @@ event_data:
   end_datetime: 
 image:
 link:
-category:
+categories:
 deltagande_artists:
   - 
 slutet_salskap: true

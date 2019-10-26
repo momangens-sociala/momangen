@@ -7,7 +7,7 @@ event_data:
   end_datetime: 2019-06-28 23:00:00 +0200
 image: /images/events/screenshot-2019-06-17-12-04-38.jpg
 link:
-category: ljudkonst
+categories: ljudkonst
 deltagande_artists:
   - marco-andres
   - nimrod

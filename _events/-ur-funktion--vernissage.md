@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2019-09-15 18:00:00 +0200
 image: /images/events/70508046-2403285699760638-7338010968779128832-o.jpg
 link: 'https://www.facebook.com/events/2391281261140144/'
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - albinlimnell
 slutet_salskap: false

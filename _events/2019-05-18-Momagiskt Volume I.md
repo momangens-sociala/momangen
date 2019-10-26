@@ -9,7 +9,7 @@ link: 'https://www.facebook.com/events/2416889711931362/'
 event_data:
   start_datetime: 2019-06-14 17:00:00 +0200
   end_datetime: 2019-06-14 23:00:00 +0200
-category: ljudkonst
+categories: ljudkonst
 deltagande_artists:
   - max_park
   - knivtid

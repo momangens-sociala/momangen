@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2017-10-11 21:30:00 +0200
 image: /images/events/varldrn.jpg
 link:
-category: bokförläggning
+categories: bokförläggning
 deltagande_artists:
   - bennynilsson
 slutet_salskap: false

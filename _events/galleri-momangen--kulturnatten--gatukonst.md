@@ -10,7 +10,7 @@ event_data:
   end_datetime: 2017-04-29 23:59:00 +0200
 image: /images/events/18056920-1402110149825092-1176586539037356566-n.jpg
 link:
-category: gatukonst
+categories: gatukonst
 deltagande_artists:
   - va
 slutet_salskap: true

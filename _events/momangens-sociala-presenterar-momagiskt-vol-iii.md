@@ -7,7 +7,7 @@ event_data:
   end_datetime: 2019-07-05 23:00:00 +0200
 image: /images/events/image-from-ios-12.jpg
 link:
-category: ljudkonst
+categories: ljudkonst
 deltagande_artists:
   - perseid
   - nimrod

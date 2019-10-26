@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2018-09-07 21:00:00 +0200
 image: /images/events/zack.jpg
 link:
-category: bokförläggning
+categories: bokförläggning
 deltagande_artists:
   - zacoyeah
 slutet_salskap: false

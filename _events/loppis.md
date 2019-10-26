@@ -7,7 +7,7 @@ event_data:
   end_datetime: 2017-12-03 16:30:00 +0100
 image: /images/events/loppis.jpg
 link:
-category: bildkonst
+categories: bildkonst
 deltagande_artists:
   - va
 slutet_salskap: false

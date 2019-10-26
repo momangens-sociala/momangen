@@ -9,7 +9,7 @@ event_data:
   end_datetime: 2019-08-30 22:00:00 +0200
 image: /images/events/68359877-2805418372818972-1472651776497811456-o.jpg
 link: 'https://www.facebook.com/events/2080274908745400/'
-category: bokförläggning
+categories: bokförläggning
 deltagande_artists:
   - klobjorn
 slutet_salskap: false
