@@ -31,7 +31,7 @@ image: /uploads/stickerwall.jpg
           {% when '11' %}November {% when '12' %}December {% endcase %}
           {{ event.event_data.start_datetime | date: "%Y" }}
           kl. {{ event.event_data.start_datetime | date: "%R"}}</strong><br />
-        Typ av konst: {{ event.category }}</p>
+        Typ av konst: {{ event.categories }}</p>
       <h3 style="margin-bottom: 30px;">{{ event.description | truncatewords: 10 }}</h3>
       <a href="{{ event.url }}" class="cta">Läs mer</a><br /><br />
     </div>{% endif %}   {% endfor %}

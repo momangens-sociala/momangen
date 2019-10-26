@@ -23,7 +23,7 @@
         {% when '11' %}November {% when '12' %}December {% endcase %}
         {{ event.event_data.start_datetime | date: "%Y" }}
         kl. {{ event.event_data.start_datetime | date: "%R"}}</strong><br />
-      Typ av konst: {{ event.category }}</p>
+      Typ av konst: {{ event.categories }}</p>
     
     <a href="{{ event.url }}" class="cta">Läs mer</a><br /><br />
   </div> {% endif %} {% endfor %}

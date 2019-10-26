@@ -41,7 +41,7 @@
           {{ event.event_data.start_datetime | date: "%Y" }}          
           kl. {{ event.event_data.start_datetime | date: "%R"}}
           <br />
-          Typ av konst: {{ event.category }}
+          Typ av konst: {{ event.categories }}
           <br /><strong>{{ event.description | truncatewords: 10 }}</strong></p>
         <p><a class="cta" href="{{ event.url }}" style="padding:10px;"> Läs mer </a></p>
       </div>
