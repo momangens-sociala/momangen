@@ -8,6 +8,7 @@ event_data:
 image:
 link:
 categories:
+  - 
 deltagande_artists:
   - 
 slutet_salskap: true
