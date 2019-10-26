@@ -15,3 +15,7 @@ published: true
 ---
 
 Genom olika material och i musik undersöker Johanna i denna utst&auml;llning sitt identitetsskapande över tid och skapar en parallell minnesstund och metamorfos.<br>&nbsp;
+
+### [OSA h&auml;r](https://www.facebook.com/events/2115461678749126/){: target="_blank"}
+
+&nbsp;
