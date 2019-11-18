@@ -1,5 +1,5 @@
 ---
-title: Julmarknad 2019 - Dag1
+title: Julmarknad 2019
 description: >-
   En julmarknad för dig som vill investera in närodlad konst. Prints, målningar,
   foton, silversmycken, emaljpins, handtryckta t-shirts med mera.
