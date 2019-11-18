@@ -1,5 +1,5 @@
 ---
-name: Jean la Salvia
+name: Jean La Salvia
 blurb_text:
 nation:
 link:
