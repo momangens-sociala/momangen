@@ -1,4 +1,4 @@
-<div class="column" style="display: flex; flex-wrap: wrap;">
+<div class="column" style="display: flex; flex-wrap: wrap;align-content:baseline;">
   <h3 style="flex: 1 1 100%;">Vem {% if page.category == 'ljudkonst' %}spelar? {% else %}Ställer ut?{% endif %}</h3>
   {% for artist_name in page.deltagande_artists %}
   {% for artist in site.artists %}
@@ -10,7 +10,7 @@
       }}
   {%- endcapture %}
   {% if name == artist_name %}
-  <div style="flex: 1 0 100px;padding: 5px;">
+  <div style="flex: 1 0 100px;padding: 5px;align-content:baseline;">
     <div class="square-image" style="{% if artist.image != null %}background-image: url('{{ artist.image }}');{% else %}background-color: #333;{% endif %}background-size: cover;"></div>
     {% if artist.link != null %}<a href="{{ artist.link }}" target="_blank" style="text-align: center;"
       rel="noopener noreferrer">{{ artist.name }}</a>
