@@ -1,5 +1,5 @@
-<div class="column">
-  <h3>Vem {% if page.category == 'ljudkonst' %}spelar? {% else %}Ställer ut?{% endif %}</h3>
+<div class="column" style="display: flex; flex-wrap: wrap;">
+  <h3 style="flex: 1 1 100%;">Vem {% if page.category == 'ljudkonst' %}spelar? {% else %}Ställer ut?{% endif %}</h3>
   {% for artist_name in page.deltagande_artists %}
   {% for artist in site.artists %}
   {% capture name -%}
@@ -9,16 +9,15 @@
         | replace_first: '.md', ''
       }}
   {%- endcapture %}
-  {% if name == artist_name %}<br />
-  <div class="square-image" style="background-image: url('{{ artist.image }}');background-size: cover;"></div>
-  <p><strong>{{ artist.name }}</p></strong>
-  <p class="blurb">{{ artist.blurb_text }}<br />
-    {% if artist.link != null %}
-      <br /><a href="{{ artist.link }}" 
-      target="_blank"
-      class="cta"
-      rel="noopener noreferrer">{% if page.category == 'ljudkonst'%}Lyssna{% else %}Mer info{% endif %}
-      här</a>{% endif %}</p>
+  {% if name == artist_name %}
+  <div style="flex: 1 0 100px;padding: 5px;">
+    <div class="square-image" style="{% if artist.image != null %}background-image: url('{{ artist.image }}');{% else %}background-color: #333;{% endif %}background-size: cover;"></div>
+    {% if artist.link != null %}<a href="{{ artist.link }}" target="_blank" style="text-align: center;"
+      rel="noopener noreferrer">{{ artist.name }}</a>
+    {% else %}
+    {{ artist.name }}
+    {% endif %}
+  </div>
   {% break %}
   {% endif %}
   {% endfor %}
@@ -27,3 +26,4 @@
 
 
 </div>
+
