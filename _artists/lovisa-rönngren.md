@@ -2,6 +2,6 @@
 name: Lovisa Rönngren
 blurb_text:
 nation:
-link:
-image:
+link: 'https://www.instagram.com/lovisaronngren/'
+image: /images/artists/lovisa.jpg
 ---
