@@ -1,7 +1,7 @@
 ---
 title: Momangens Julmarknad 2019
 description: >-
-  En julmarknad för dig som vill investera in närodlad konst. Prints, målningar,
+  En julmarknad för dig som vill investera i närodlad konst. Prints, målningar,
   foton, silversmycken, emaljpins, handtryckta t-shirts med mera.
 date: 2019-11-18 00:00:00 +0100
 event_data:
