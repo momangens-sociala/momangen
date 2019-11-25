@@ -2,6 +2,6 @@
 name: Karolina Engdahl
 blurb_text:
 nation:
-link:
-image:
+link: instagram.com/vannainget
+image: /images/artists/karolinaengdahl.jpg
 ---
