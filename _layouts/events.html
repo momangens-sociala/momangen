@@ -3,17 +3,22 @@ layout: default
 ---
 <!-- begin events.html -->
 <div class="column">
-  <div style="padding:0 3px 3px 3px;border-radius: 3px;" class="highlight">
+  <div class="highlight">
     <h1>{{ page.title }}</h1>
     <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
-    Eventet börjar: <strong>{{ page.event_data.start_datetime | date: "%Y-%m-%d"}} klockan
-      {{ page.event_data.start_datetime | date: "%R"}}</strong><br />
-    Och slutar: <strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} klockan
-      {{ page.event_data.end_datetime | date: "%R"}}</strong><br />
+    <p>Eventet börjar: 
+      <br /><strong>{{ page.event_data.start_datetime | date: "%Y-%m-%d"}} 
+      <em>{{ page.event_data.start_datetime | date: "%R"}}</em></strong><br />
+      Och slutar: 
+      <br /><strong>{{ page.event_data.end_datetime | date: "%Y-%m-%d"}} 
+      <em>{{ page.event_data.end_datetime | date: "%R"}}</em></strong><br />
+    </p>      
+
     <p><strong>{{ page.description }}</strong></p>
   </div>
-{{ content }}
   <img src="{{ site.baseurl}}{{ page.image }}" width="100%" alt="Event flyer för: {{ page.title }}" title="Event flyer för: {{ page.title }}" />
+{{ content }}
+
 
 </div>{% include featured-artists.html %}{% if page.slutet_salskap == true %}
 <div class="column">{% if page.slutet_salskap == true %}
