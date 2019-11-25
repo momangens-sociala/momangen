@@ -32,7 +32,7 @@ image: /uploads/stickerwall.jpg
           {{ event.event_data.start_datetime | date: "%Y" }}
           kl. {{ event.event_data.start_datetime | date: "%R"}}</strong><br />
         Typ av konst: {{ event.categories }}</p>
-      <h3 style="margin-bottom: 30px;">{{ event.description | truncatewords: 10 }}</h3>
+      <h3 style="margin-bottom: 30px;">{{ event.description | truncatewords: 50 }}</h3>
       <a href="{{ event.url }}" class="cta">Läs mer</a><br /><br />
     </div>{% endif %}   {% endfor %}
   </div>
@@ -51,7 +51,7 @@ image: /uploads/stickerwall.jpg
       </a>
       <p>{{ event.event_data.start_datetime | date: '%Y-%m-%d' }}<br />
         <a href="{{ event.url }}"><strong>{{ event.title }}</strong></a>
-        <br /><br />{{ event.description | truncatewords: 10 }}
+        <br /><br />{{ event.description | truncatewords: 50 }}
       </p>
       <br />
     </div> {% endif %} {% endfor %}
