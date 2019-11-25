@@ -32,7 +32,7 @@ slutet_salskap: false
 published: true
 ---
 
-Ibland runt december förvandlas den kreativa verkstaden och kulturföreningen Momangen, till ett galleri d&auml;r medlemmarna bjuder sina favoritkonstn&auml;rer att st&auml;lla ut.
+Ibland runt december förvandlas den kreativa verkstaden och kulturföreningen Momangen, till en julmarknad d&auml;r medlemmarna bjuder sina favoritkonstn&auml;rer att st&auml;lla ut.
 
 Under en helg i december s&auml;ljer medlemmarna sina verk och bjuder in andra att göra detsamma.
 
