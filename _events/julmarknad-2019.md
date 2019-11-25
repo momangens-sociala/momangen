@@ -38,4 +38,8 @@ Under en helg i december s&auml;ljer medlemmarna sina verk och bjuder in andra a
 
 Julmarknaden p&aring;g&aring;r:
 
-Lördag den 7 december, 11.00 till 17.00.<br>Söndag 8 december, 11.00 till 17.00.
+Lördag den 7 december, 11.00 till 17.00.<br>Söndag 8 december, 11.00 till 17.00
+
+[Facebook event](https://www.facebook.com/events/798775513918440){: target="_blank"}&nbsp;
+
+&nbsp;
