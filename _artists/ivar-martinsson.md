@@ -2,6 +2,6 @@
 name: Ivar Martinsson
 blurb_text:
 nation:
-link:
-image:
+link: 'http://ivari.se/'
+image: /images/artists/ivari.jpg
 ---
