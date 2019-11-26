@@ -15,19 +15,19 @@ categories:
   - graffiti
   - bokförläggning
 deltagande_artists:
-  - jean-la-salvia
-  - johannaengdahl
+  - becko-ellnemar
+  - hop-louie
+  - håll-truten
+  - jessica-hallbäck
   - karolina-engdahl
-  - molly-abrahamsen
-  - lovisa-rönngren
+  - markandersson
   - astrid-adsten
   - ivar-martinsson
-  - håll-truten
-  - hop-louie
-  - jessica-hallbäck
+  - jean-la-salvia
+  - johannaengdahl
+  - lovisa-rönngren
+  - molly-abrahamsen
   - sibylla
-  - becko-ellnemar
-  - markandersson
 slutet_salskap: false
 published: true
 ---
