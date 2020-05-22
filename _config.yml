@@ -116,6 +116,29 @@ defaults:
         date: När ska eventsidan publiceras?
   - scope:
       path: ""
+      type: "posts"
+    values:
+      layout: "blog"
+      _options:
+        image:
+          width: 1024
+          height: 960
+          resize_style: "cover"
+          mime_type: "image/jpeg"
+          uploads_dir: "images/posts"
+        content:
+          width: 480
+          height: 480
+          resize_style: "contain"
+          mime_type: "image/jpeg"
+          uploads_dir: "images/posts"
+      _comments:
+        title: Postens tittle
+        description: Vad som kommer stå på länken i sociala medier och sökresultat
+        image: Bild som visas i headern, på länken i sociala medier och sökresultat
+        date: När ska posten publiceras?
+  - scope:
+      path: ""
       type: "artists"
     values:
       layout: "artists"

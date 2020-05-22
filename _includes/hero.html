@@ -1,5 +1,5 @@
 <!-- BEGIN hero.html -->
-<div id="banner" style={% if page.url == "/" %}"height:100%"{% else %}"height:60%;"{% endif %}>
+<div id="banner" style={% if page.url == "/" %}"min-height:100%"{% else %}"min-height:60%;"{% endif %}>
 
   <div>
     <a href="{{ site.baseurl }}/" class="nodecoration">
@@ -43,7 +43,8 @@
           kl. {{ event.event_data.start_datetime | date: "%R"}}
           <br />
           Typ av konst: {% for cat in event.categories %}{% if forloop.last != true %}{{ cat }}, {% else %}{{ cat }}{% endif %}{% endfor %}
-          <br /><strong>{{ event.description | truncatewords: 10 }}</strong></p>
+          <br /><strong>{{ event.description | truncatewords: 10 }}</strong>
+        </p>
         <p><a class="cta" href="{{ event.url }}" style="padding:10px;"> Läs mer </a></p>
       </div>
 
@@ -56,7 +57,6 @@
     {% else %}
     <div id="flyer" style="background-image: url({{ page.image }})"></div>
     {% endif %}
-
   </div>
   <div id="decoration"></div>
 </div>

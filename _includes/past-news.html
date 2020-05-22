@@ -1,0 +1,13 @@
+{% assign count = site.posts | size %}
+{% if count > 1 %}
+<br />
+<h3>Äldre inlägg</h3>
+
+{% for post in site.posts | offset: 1%}   
+ 
+<div class="pastevents" {% if forloop.last == true %}style="border:none"{% endif %}>
+  <p>{{ post.date | date: '%Y-%m-%d' }}<br />
+    <a href="{{ event.url }}"><strong>{{ post.title }}</strong></a>
+  </p>
+</div>  {% endfor %}
+{% endif %}
