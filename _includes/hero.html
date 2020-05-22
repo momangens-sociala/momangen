@@ -1,5 +1,5 @@
 <!-- BEGIN hero.html -->
-<div id="banner" style={% if page.url == "/" %}"height:100%"{% else %}"height:60%;"{% endif %}>
+<div id="banner" style={% if page.url == "/" %}"min-height:100%"{% else %}"min-height:60%;"{% endif %}>
 
   <div>
     <a href="{{ site.baseurl }}/" class="nodecoration">
@@ -43,7 +43,8 @@
           kl. {{ event.event_data.start_datetime | date: "%R"}}
           <br />
           Typ av konst: {% for cat in event.categories %}{% if forloop.last != true %}{{ cat }}, {% else %}{{ cat }}{% endif %}{% endfor %}
-          <br /><strong>{{ event.description | truncatewords: 10 }}</strong></p>
+          <br /><strong>{{ event.description | truncatewords: 10 }}</strong>
+        </p>
         <p><a class="cta" href="{{ event.url }}" style="padding:10px;"> Läs mer </a></p>
       </div>
 
@@ -52,7 +53,42 @@
 
       {% break %}  {% endif %}   {% endfor %}
       <!-- end Up next-->
+      <div>
+        
+        {% for post in site.posts %}
+        <h2>{{ post.title }}</h2>
+
+
+        <p>Nyhet postad den 
+          {% assign post-d = post.date | date: "%-d"  %}
+          {% case post-d %}
+          {% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a          
+          {% else %}{{ post-d }}:e
+          {% endcase %}         
+          
+          {% assign post-m = post.date | date: "%-m" %}          
+          {% case post-m %}           
+          {% when '1' %}Januar          
+          {% when '2' %}Februari          
+          {% when '3' %}Mars           
+          {% when '4' %}April          
+          {% when '5' %}Maj          
+          {% when '6' %}Juni          
+          {% when '7' %}Juli          
+          {% when '8' %}Augusti          
+          {% when '9' %}September          {% when '10' %}October          {% when '11' %}November          {% when '12' %}December         
+          {% endcase %}          
+          {{ post.date | date: "%Y" }}          
+          <br />
+
+          <br /><strong>{{ post.description | truncatewords: 10 }}</strong>
+        </p>
+        <p><a class="cta" href="{{ post.url }}" style="padding:10px;"> Läs mer </a></p>
+        {% endfor %}
+      </div>
+
     </div>
+
     {% else %}
     <div id="flyer" style="background-image: url({{ page.image }})"></div>
     {% endif %}
