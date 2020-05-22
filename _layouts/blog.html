@@ -3,17 +3,20 @@ layout: default
 ---
 <!-- begin events.html -->
 <div class="column">
-  <div>
+
     <h1>{{ page.title }}</h1>
     <a href="cloudcannon:collections/{{ event.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Event</a>
 
     <p><strong>{{ page.description }}</strong></p>
-  </div>
+
 
 {{ content }}
-
+{% if page.contact-form == true %}
+{% include contact.html %}
+{% endif %}
 
 </div>
+
 <div class="column">
 {% include hittahit.html %}
 </div>
