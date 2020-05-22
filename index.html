@@ -4,24 +4,61 @@ image: /siteicon.png
 layout: default
 ---
 <!-- begin /index.html -->
+{% include coming-events.html %}
+
+
 <div class="column">
+  <div>
+    {% for post in site.posts %}
+    <h2>{{ post.title }}</h2>
+    <p>Nyhet postad den
+      {% assign post-d = post.date | date: "%-d"  %}
+      {% case post-d %}
+      {% when '1' or '21' or '31' or '2' or '22' %}{{ d }}:a
+      {% else %}{{ post-d }}:e
+      {% endcase %}
+
+      {% assign post-m = post.date | date: "%-m" %}
+      {% case post-m %}
+      {% when '1' %}Januar
+      {% when '2' %}Februari
+      {% when '3' %}Mars
+      {% when '4' %}April
+      {% when '5' %}Maj
+      {% when '6' %}Juni
+      {% when '7' %}Juli
+      {% when '8' %}Augusti
+      {% when '9' %}September {% when '10' %}October {% when '11' %}November {% when '12' %}December
+      {% endcase %}
+      {{ post.date | date: "%Y" }}
+      <br />
+
+      <br /><strong>{{ post.description }}</strong>
+    </p>
+    <p><a class="cta" href="{{ post.url }}" style="padding:10px;"> Läs mer </a></p>
+    {% endfor %}
+  </div>
+  <div>
+
+    {% include past-news.html %}
+
+  </div>
+<br />
   <h1>{{ site.title }}</h1>
   <p><strong>{{ site.description }}</strong></p>
   <div class="editable">
-      <h3>Om Kulturf&ouml;reningen Momangen</h3>
-      <p>Det f&ouml;rsta fr&ouml;et till Kulturf&ouml;reningen Momangen s&aring;ddes genom en enkel fr&aring;ga p&aring;
-        ett forum "Finns det n&aring;gra som vill dela en lokal att spilla f&auml;rg i?". Detta ledde till att sex
-        personer tog en diskussion &ouml;ver n&aring;gra &ouml;l p&aring; Carmen och tre m&aring;nader senare var
-        f&ouml;reningen startad. Jakten p&aring; passande lokal startades och i januari 2011 hade medlemmarna
-        &auml;ntligen nycklarna till lokalen p&aring; Kocksgatan. Efter idogt renoveringsarbete invigdes lokalen i
-        november 2011 och har sedan dess anv&auml;nts som atelj&eacute; och verkstad av f&ouml;reningens medlemmar.
-        F&ouml;reningen har just nu 13 medlemmar som spiller f&auml;rg, bygger skulpturer, skriver, musicerar, fotar och
-        pysslar p&aring; i v&aring;rt alldeles egna vuxendagis.</p><br />
+    <h3>Om Kulturf&ouml;reningen Momangen</h3>
+    <p>Det f&ouml;rsta fr&ouml;et till Kulturf&ouml;reningen Momangen s&aring;ddes genom en enkel fr&aring;ga p&aring;
+      ett forum "Finns det n&aring;gra som vill dela en lokal att spilla f&auml;rg i?". Detta ledde till att sex
+      personer tog en diskussion &ouml;ver n&aring;gra &ouml;l p&aring; Carmen och tre m&aring;nader senare var
+      f&ouml;reningen startad. Jakten p&aring; passande lokal startades och i januari 2011 hade medlemmarna
+      &auml;ntligen nycklarna till lokalen p&aring; Kocksgatan. Efter idogt renoveringsarbete invigdes lokalen i
+      november 2011 och har sedan dess anv&auml;nts som atelj&eacute; och verkstad av f&ouml;reningens medlemmar.
+      F&ouml;reningen har just nu 13 medlemmar som spiller f&auml;rg, bygger skulpturer, skriver, musicerar, fotar och
+      pysslar p&aring; i v&aring;rt alldeles egna vuxendagis.</p><br />
   </div>
   <a href="/about/" class="cta" alt="About Momangen">Om Momangen</a>
 </div>
-
-  {% include coming-events.html %}
 
 <div class="column">
   {% include past-events.html %}
@@ -30,3 +67,4 @@ layout: default
   {% include hittahit.html %}
 </div>
 <!-- END   /index.html -->
+
