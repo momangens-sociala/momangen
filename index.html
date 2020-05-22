@@ -10,7 +10,7 @@ layout: default
 <div class="column">
   <div>
     {% for post in site.posts %}
-    <h2>{{ post.title }}</h2>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     <p>Nyhet postad den
       {% assign post-d = post.date | date: "%-d"  %}
       {% case post-d %}
