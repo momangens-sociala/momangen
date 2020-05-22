@@ -3,6 +3,5 @@ title:
 description:
 date:
 image:
-link:
-category:
+contact-form: false
 ---
