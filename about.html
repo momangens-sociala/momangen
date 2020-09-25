@@ -35,6 +35,7 @@ image: /assets/img/logo%20galleri%20momangen.svg
 </div>
 </div>
 {% for artist in site.momangers %}
+{% if artist.aktiv == true %}
 <div class="column">
     <a href="cloudcannon:collections/{{ artist.path }}" rel="nofollow" class="editor-link cms-editor-link">Redigera Medlem</a>
   <div class="square-image" style="background-image: url('{{ artist.image }}')"></div>
@@ -43,4 +44,5 @@ image: /assets/img/logo%20galleri%20momangen.svg
     {% if artist.link != null %}<a href="{{ artist.link }}" trarget="_blank" rel="noopener noreferrer nofollow">Mer info
       här</a>{% endif %}</p>
 </div>
+{% endif %}
 {% endfor %}
