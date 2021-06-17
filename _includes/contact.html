@@ -1,52 +1,6 @@
 <!-- BEGIN contact.html -->
 <div id="contact">
-  <form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-    <div>
-
-      <input type="hidden" name="_to" value="{{ site.email }}" /><br />
-      <input type="text" name="_gotcha" style="display: none;" />
-      
-    </div>
-    <div>
-        <label for="name">Namn:</label><br />
-      <input type="text" name="name" id="name" placeholder="Ditt fullständiga namn" class="contact" />
-      
-    </div>
-    <div>
-        <label for="email">E-post:</label><br />
-      <input type="email" name="email" id="email" placeholder="Din e-post adress" required class="contact" />
-     
-    </div>
-    <div>      
-        <label for="persnr">Personnummer:</label><br />
-      <input type="text" name="persnr" id="persnr" placeholder="Ditt Personnummer (Fördelsedatum räcker)" class="contact" />
-     
-    </div>
-    <div>      
-        <label for="postnummer">Postnummer:</label><br />
-      <input type="text" name="postnummer" id="postnummer" placeholder="Ditt postnummer" class="contact" />
-     
-    </div>
-    <div>     
-        <label for="message">Dikt:</label><br /> 
-      <textarea name="message" id="message" placeholder="Skriv en dikt" required
-        class="contact textspace" rows="4"></textarea>
-     
-    </div>
-    <div>
-      <input type="checkbox" name="consent" id="consent" required class="css-checkbox lrg klaus" /><label for="consent"
-        class="css-label lrg klaus">Jag godkänner denna
-        {% if page.url == '/privacy-policy/' %} sekretesspolicy.
-        {% else %} <a href="{{ site.baseurl }}/privacy-policy/">sekretesspolicy</a>
-        {% endif %}</label>
-    </div>
-    <div>
-      <input type="checkbox" name="news" id="news" class="css-checkbox lrg klaus" /><label for="news"
-        class="css-label lrg klaus">Skicka mig gärna nyheter!</label>
-    </div>
-    <div>
-      <input type="submit" value="Send Message" />
-    </div>
-  </form>
+  <h2>Maila oss!</h2>
+  <a href="mailto:momangens@gmail.com">momangens@gmail.com</a>
 </div>
 <!-- END contact.html -->
